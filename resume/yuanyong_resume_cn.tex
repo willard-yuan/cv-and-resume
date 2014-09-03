@@ -1,0 +1,197 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvstyle{classic}                        % 选项参数是 ‘casual’, ‘classic’, ‘oldstyle’ 和 ’banking’
+\moderncvcolor{blue}
+
+\usepackage[utf8]{inputenc}                   % 替换你正在使用的编码
+%\usepackage{CJKutf8}
+
+% character encoding
+%\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+\usepackage[noindent]{ctex}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{}
+\familyname{袁勇}
+%\title{个人简历}              % optional, remove the line if not wanted
+\address{}{西安市高新区}                       % optional, remove the line if not wanted
+\mobile{139-1838-7639}                         % optional, remove the line if not wanted
+%\phone{phone (optional)}                      % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{willard.yuan@gmail.com}                 % optional, remove the line if not wanted
+\homepage{yongyuan.name}                % optional, remove the line if not wanted
+%\extrainfo{♂34岁}                             % optional, remove the line if not wanted
+\photo[64pt]{qr}                             % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{I'm normally not a praying man, but if you're up there, please save me, Superman}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{学历}
+%\cventry{2013.09--至今}{硕士}{中国科学院大学信号与信息专业}{}{\textit{上海交通大学校优秀毕业生}}{}  % arguments 3 to 6 can be left empty
+\cventry{2013.09--至今}{硕士}{中国科学院大学信号与信息专业}{}{\textit{保研}}{}  % arguments 3 to 6 can be left empty
+\cventry{2009.09--2013.07}{学士}{西安电子科技大学电子信息科学与技术专业}{}{}{}
+
+\section{出版物}
+\cventry{2014.04}{\textbf{Yong Yuan}\textnormal{,Xiaoqiang Lu,and Xuelong Li.Learning Hash Functions Using Sparse Reconstruction.in ICIMCS,2014 (Best Paper Honorable Mention Award)} }{}{}{}{}
+\cventry{2014.04}{\textbf{Y. Cao}, Y. Yuan, X. Li, B. Turkbey, P. Choyke, P. Yan, Label Image Constrained Atlas Selection on 3D Prostate MR Image Segmentation, \emph{IEEE Trans. on Medical Imaging}, 2012. (Manuscript)}{}{}{}{}
+\cventry{2014.06}{\textnormal{朱文涛}\textbf{，袁勇.}\textnormal{ Python计算机视觉编程(译作)，图灵出版社} }{}{}{}{}
+
+\section{科研经历}
+\subsection{中科院西安光学精密机械研究所（2013--至今）}
+\cventry{2013--至今}{基于内容的图像检索CBIR}{}{课题方向主要研究人}{}{针对大规模图像数据，如何在保持低计算复杂度的前提下，尽可能的提高检索精度进行研究。
+\begin{itemize}%
+\item 深入研究过采用相关反馈、倒排文档模型以及哈希编码方法，熟练掌握机器学习中的一些聚类、支持向量机SVM、稀疏表达等方法。
+\item 发表基于稀疏表达的哈希编码方法论文一篇，另一篇在投。
+\end{itemize}}
+\cventry{2014--至今}{复杂低空飞行的自主避险理论与方法研究}{}{973，项目参与人}{}{对复杂低空高压线进行实时检测，将可见光图像与武大提供的点云数据进行融合。
+\begin{itemize}%
+\item 负责可见光图像与激光雷达点云数据的融合，消除在高压线检测时存在的误检。
+\item 目前该项目仍在进行联调中。
+\end{itemize}}
+
+%\section{工作经历}
+%\subsection{上海梦擎信息科技有限公司（2006.03--现在）}
+%\cventry{2011.03--现在}{ALP V2}{}{技术经理}{项目负责人}{
+%ALP V2是ALP的全新升级系统，类似谷歌地图，基于移动互联网的LBS地图应用平台。并提供WEB及移动平台的SDK，允许第三方接入。 已上线的业务功能含有地图瓦片服务系统、地图瓦片实时渲染系统，POI查询系统、路径演算系统、路况信息系统及鉴权认证系统。
+%非业务系统包含使用LVS、Nginx、Varnish的接入层系统，
+%运维相关的日志及监控系统，以及其他队列、缓存、MySql、nosql系统。
+%\begin{itemize}%
+%\item 负责ALP V2系统的需求分析、架构设计。
+%\item 负责研发基于Cetty的全堆栈C++基础网络应用框架（类似Finagle），支持基于protobuf RPC、REST HTTP 等协议。
+%\item 负责研发基于gearman的任务系统，并基于此研发分布式地图瓦片实时渲染系统。
+%\item 负责研发基于Sphinx的面向地理信息的POI查询系统（包含基于CSWS的地理类中文切词系统）。
+%\item 负责研发类似shiro（参考）的C++鉴权认证系统。
+%\end{itemize}}
+%
+%\cventry{2008.10--2011.03}{ALP(Astrob LBS Platform)}{}{技术经理}{项目负责人}{
+%ALP是以车载GPS导航为中心的LBS应用平台，类似TSP(Telematics Service Provider)，提供实时交通信息、网络POI、车友会、一键通等应用的后端平台系统，并可以与第三方的CTI、SP做无缝集成。
+%\begin{itemize}%
+%\item 负责ALP系统的需求分析、架构设计。
+%\item 带领团队研发基于ACE的支持高并发的Socket网络框架。
+%\item 负责研发跨平台（WinCE、Windows、Linux）的类OSGI 的C++插件框架。
+%\item 负责研发基于ODBC的C++持久层框架，基于Protobuf的RPC框架。
+%\item 负责研发基于Sphinx的全文检索系统，日志系统。
+%\item 使用MySql、Redis、MongoDB、Sphinx、Protobuf、ACE等开源软件。
+%\end{itemize}}
+%
+%\cventry{2008.10--2011.03}{CPND(Connected PND) GPS导航软件}{}{技术经理}{项目负责人}{
+%CPND导航软件是具有无线应用的GPS车载导航软件。项目针对新需求，进行了架构设计，模块重构的工作。
+%\begin{itemize}
+%\item 负责ALP系统中CPND导航终端产品的需求分析及架构设计。
+%\item 负责基础C++核心组件（跨平台基础库、日志库、配置库、信号插槽等）的构建。
+%\item 负责项目团队的建设和管理。
+%\item 采用类OSGI插件框架作为核心框架，实现优秀的扩展性；使用gtest单元测试。
+%\item 采用RUP/SCRUM开发模型；使用Redmine管理项目；使用Hudson持续集成。
+%\end{itemize}}
+%
+%\cventry{2007.06--2008.10}{Panasonic前装车载GPS导航}{}{高级软件工程师}{项目负责人}{
+%为松下开发的全新前装GPS导航软件，针对台湾及中国大陆市场。
+%\begin{itemize}
+%\item 负责与客户研讨需求，主导系统设计以及模块的开发。
+%\item 管理项目日常开发事务，控制软件质量及项目进度。
+%\end{itemize}}
+%
+%\cventry{2007.03--2007.06}{GPS导航北美GSL客户定制}{}{高级软件工程师}{项目负责人}{
+%基于通用GPS导航软件版本，针对GSL客户的需求，做特别订制的北美版导航软件。
+%\begin{itemize}
+%\item 负责与GSL客户讨论并制订需求，并针对客户需求对导航软件进行定制化开发，负责软件的集成测试及最终发布。
+%\end{itemize}}
+%
+%\cventry{2006.10--2007.03}{GPS导航桌面工具MapManager}{}{软件工程师}{项目负责人}{
+%MapManager是管理设备导航软件的桌面工具，包含安装更新地图，导入导出个人资料。
+%\begin{itemize}
+%\item 负责MapManager的需求分析、设计及开发工作。
+%\end{itemize}}
+%
+%\cventry{2006.06--2007.01}{公司软件开发规范制订}{}{软件工程师}{}{
+%\begin{itemize}
+%\item 负责制订公司内部的软件开发流程、规范，并在实施过程中不断改进（在咨询公司协助下）。
+%\item 制定的软件开发流程、规范在公司内部实施，并取得较好的效果。
+%\end{itemize}}
+%
+%\cventry{2006.03--2006.07}{GPS导航软件中的语音导航模块}{}{软件工程师}{}{
+%\begin{itemize}
+%\item 负责实现Wave及Ogg播放器，导航语音控制模块。支持WinCE、Linux平台。
+%\end{itemize}}
+
+\section{奖项}
+\cventry{2012--2013}{\textnormal {ICIMCS14最佳论文提名奖}}{}{}{}{}
+\cventry{2011--2012}{\textnormal {国家奖学金}}{}{}{}{}
+\cventry{2010--2011}{\textnormal {校内一等奖学金}}{}{}{}{}
+\cventry{2009--2010}{\textnormal {国家励志奖学金}}{}{}{}{}
+
+\section{开源项目}
+\cventry{2013.12--现在}{pcvwithpython}{\link[yuanyong.org/pcvwithpython/]{http://yuanyong.org/pcvwithpython/}}{项目创建人}{}{
+在翻译Programming Computer Vision with Python时，为使读者更易于理解书中的内容，将原作者主页提供的精简省去很多实例的代码重新实按书中实现了一遍，整理后全书的代码放在github上:{\link[github.com/willard-yuan/pcv-book-code]{https://github.com/willard-yuan/pcv-book-code/}}。
+}
+\cventry{2014.02--2014.05}{SRH}{\link[github.com/willard-yuan/sparse-reconstruction-hashing]{https://github.com/willard-yuan/sparse-reconstruction-hashing}}{项目创建人}{}{提出了一种基于稀疏重构的哈希编码方法，在该项目中，用matlab实现了该设计的算法
+}
+
+\section{语言}
+\cvline{英语}{\small CET-6，具备阅读专业英文文献能力}
+%\cvlanguage{英语}{口语流利，良好的阅读及写作能力}{CET-6}
+
+\section{IT技能}
+%\cvcomputer{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
+\cvline{语言}{\small 精通Python,Matlab,熟悉C++,HTML,CSS}
+\cvline{工具}{\small Linux,SVN,GitHub,Django,OpenCV Python接口,Jekyll}
+%\cvline{其他}{\small UML, OSGI, OOD, SOA, 设计模式, RUP/SCRUM开发模型}
+\cvline{GitHub}{\small {\link[github.com/willard-yuan]{https://github.com/willard-yuan}}}
+
+%\section{Interests}
+%\cvline{hobby 1}{\small Description}
+%\cvline{hobby 2}{\small Description}
+%\cvline{hobby 3}{\small Description}
+
+\section{其他}
+\cvline{}{靠谱，有态度，对任何事情认真负责，责任心强；具有很好的人际沟通、协调和组织能力。}
+%\cvlistitem{}
+
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}   % 'publications' is the name of a BibTeX file
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
