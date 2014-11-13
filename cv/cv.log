@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.6.20)  4 SEP 2014 00:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.6.20)  8 NOV 2014 17:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -780,7 +780,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
  14351 strings out of 493117
- 247149 string characters out of 6134544
+ 247153 string characters out of 6134544
  365852 words of memory out of 5000000
  17654 multiletter control sequences out of 15000+600000
  8463 words of font info for 35 fonts, out of 8000000 for 9000
@@ -794,7 +794,7 @@ pfb><d:/ProgramFiles/texlive14/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10
 2.pfb><d:/ProgramFiles/texlive14/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
 10.pfb><d:/ProgramFiles/texlive14/texmf-dist/fonts/type1/public/cm-super/sfrm10
 00.pfb>
-Output written on cv.pdf (1 page, 71776 bytes).
+Output written on cv.pdf (1 page, 70867 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
