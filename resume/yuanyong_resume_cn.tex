@@ -9,33 +9,37 @@
 \documentclass[11pt,a4paper,sans]{moderncv}
 
 % moderncv themes
-\moderncvtheme[blue]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[green]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
                                               % casual’, ‘classic’, ‘oldstyle’ and ’banking’
-%\nopagenumbers{}                             % 消除注释以取消自动页码生成功能                                           
+%\nopagenumbers{}                             % 消除注释以取消自动页码生成功能
 
 % character encoding 设置编码方式
 \usepackage[utf8]{inputenc}                   % replace by the encoding you are using
 \usepackage[noindent]{ctex}
 \usepackage{CJKutf8}
-
 %中文字体设置
 \usepackage{fontspec}
 \usepackage{xunicode}
 \usepackage{xeCJK}
 %西文字体的正文衬线族、正文无衬线族、正文等宽族
+% 以下是英文字体的设置
+\defaultfontfeatures{Scale=MatchLowercase} % 这个参数保证 serif、sans-serif 和 monospace 字体在小写时大小匹配
+\setmainfont[Numbers=OldStyle,Mapping=tex-text]{Garamond} % 使用 Garamond 字体，把数字设置为等宽，比较好看
+\setsansfont[Mapping=tex-text]{Times New Roman} % 使用 XeTeX 的 text-mapping 方案，正确显示 LaTeX 样式的双引号（`` ''）
+\setmonofont{Times New Roman}
 \setmainfont{Courier New}
 \setsansfont{微软雅黑}
 \setmonofont{微软雅黑}
 %设置中文字体的正文衬线族、正文无衬线族、正文等宽族
-\setCJKmainfont[Scale=0.9]{微软雅黑}%中文字体
-\setCJKmonofont[Scale=0.9]{微软雅黑}
+\setCJKmainfont[Scale=1]{微软雅黑}%中文字体
+\setCJKmonofont[Scale=1]{微软雅黑}
 \setCJKfamilyfont{mono}{微软雅黑}
-%\setCJKmathfont{}
+\setCJKmathfont{}
 %\setCJKmathfont{}
 
 % adjust the page margins 调整页面
-\usepackage[scale=0.86]{geometry}
-\setlength{\hintscolumnwidth}{3.2cm}						% 如果你希望改变日期栏的宽度 if you want to change the width of the column with the dates
+\usepackage[scale=0.85]{geometry}
+\setlength{\hintscolumnwidth}{3cm}						% 如果你希望改变日期栏的宽度 if you want to change the width of the column with the dates
 %\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
 %\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
 
@@ -45,7 +49,7 @@
 \familyname{袁勇}
 %\title{个人简历}              % optional, remove the line if not wanted
 \address{}{西安市高新区}                       % optional, remove the line if not wanted
-\mobile{139-1838-7639}                         % optional, remove the line if not wanted
+\mobile{150-2955-2208}                         % optional, remove the line if not wanted
 %\phone{phone (optional)}                      % optional, remove the line if not wanted
 %\fax{fax (optional)}                          % optional, remove the line if not wanted
 \email{willard.yuan@gmail.com}                 % optional, remove the line if not wanted
@@ -84,7 +88,7 @@
 \cventry{2013--至今}{基于内容的图像检索(CBIR)}{}{课题方向主要研究人}{}{针对大规模图像数据，如何在保持低计算复杂度的前提下，尽可能的提高检索精度进行研究.
 \begin{itemize}%
 \item 深入研究过哈希编码方法、倒排文档模型、相关反馈等方法，熟练掌握机器学习中的一些聚类、支持向量机SVM、稀疏表达等方法。
-\item 发表基于稀疏表达的哈希编码方法论文一篇，另一篇在投.
+\item 发表基于稀疏表达的哈希编码方法论文一篇.
 \end{itemize}}
 \cventry{2014--至今}{复杂低空飞行的自主避险理论与方法研究}{}{973，项目参与人}{}{对复杂低空高压线进行实时检测，将可见光图像与武大提供的点云数据进行融合.
 \begin{itemize}%
@@ -159,10 +163,8 @@
 
 \section{开源项目}
 
-\cventry{2013.02--Now}{HABIR}{项目主页:\link[habir]{http://yongyuan.name/habir/}, 源码:\link[github.com/willard-yuan/sparse-reconstruction-hashing]{https://github.com/willard-yuan/sparse-reconstruction-hashing}}{项目创建人}{}{实现一些比较新的以及经典的用于大规模图像检索的哈希算法，并针对各方法做了指标评价.}
-
-\cventry{2013.12--Now}{pcvwithpython}{项目主页:\link[pcvwithpython]{http://yongyuan.name/pcvwithpython/}, 源码:\link[github.com/willard-yuan/pcv-book-code]{github.com/willard-yuan/pcv-book-code/}}{项目创建人}{}{在翻译Programming Computer Vision with Python时，为使读者更易于理解书中的内容，将原作者主页提供的精简省去很多实例的代码重新实按书中实现了一遍，整理后全书的代码放在github上.}
-
+\cventry{2013.02--Now}{HABIR}{主页:\link[habir]{http://yongyuan.name/habir/},源码:\link[github.com/willard-yuan/sparse-reconstruction-hashing]{https://github.com/willard-yuan/sparse-reconstruction-hashing}}{项目创建人}{}{实现一些比较新的以及经典的用于大规模图像检索的哈希算法，并针对各方法做了指标评价.}
+\cventry{2013.12--Now}{pcvwithpython}{主页:\link[pcvwithpython]{http://yongyuan.name/pcvwithpython/},源码:\link[github.com/willard-yuan/pcv-book-code]{github.com/willard-yuan/pcv-book-code/}}{项目创建人}{}{在翻译Programming Computer Vision with Python时，为使读者更易于理解书中的内容，将原作者主页提供的精简省去很多实例的代码重新实按书中实现了一遍，整理后全书的代码放在github上.}
 \cventry{2014.02--2014.05}{SRH}{\link[github.com/willard-yuan/sparse-reconstruction-hashing]{https://github.com/willard-yuan/sparse-reconstruction-hashing}}{项目创建人}{}{提出了一种基于稀疏重构的哈希编码方法，在该项目中，用matlab实现了该设计的算法.}
 
 \section{IT技能}
@@ -173,14 +175,16 @@
 \cvline{GitHub}{\small {\link[github.com/willard-yuan]{https://github.com/willard-yuan}}}
 
 \section{奖项}
-\cventry{2012--2013}{\textnormal {ICIMCS14最佳论文提名奖}}{}{}{}{}
-\cventry{2011--2012}{\textnormal {国家奖学金}}{}{}{}{}
-\cventry{2010--2011}{\textnormal {校内一等奖学金}}{}{}{}{}
-\cventry{2009--2010}{\textnormal {国家励志奖学金}}{}{}{}{}
+%\cventry{2012--2013}{\textnormal {ICIMCS14最佳论文提名奖}}{}{}{}{}
+%\cventry{2011--2012}{\textnormal {国家奖学金}}{}{}{}{}
+%\cventry{2010--2011}{\textnormal {校内一等奖学金}}{}{}{}{}
+%\cventry{2009--2010}{\textnormal {国家励志奖学金}}{}{}{}{}
+\cvlistdoubleitem{ICIMCS14 Runner up Award}{国家奖学金}
+\cvlistdoubleitem{校内一等奖学金}{国家励志奖学金}
 
 \section{语言}
-\cvline{英语}{\small CET-6，具备阅读专业英文文献能力}
-%\cvlanguage{英语}{口语流利，良好的阅读及写作能力}{CET-6}
+\cvline{英语}{\small CET-6，具备阅读专业英文文献能力及写作能力}
+%\cvlanguage{英语}{具备阅读专业英文文献能力及写作能力}{CET-6}
 
 %\section{Interests}
 %\cvline{hobby 1}{\small Description}
