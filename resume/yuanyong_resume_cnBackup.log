@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.1415926-2.2-0.9997.4 (MiKTeX 2.9) (preloaded format=xelatex 2015.2.12)  3 MAR 2015 22:20
+This is XeTeX, Version 3.1415926-2.2-0.9997.4 (MiKTeX 2.9) (preloaded format=xelatex 2015.2.12)  4 MAR 2015 09:57
 entering extended mode
-**yuanyong_resume_cn.tex
-(E:\github\my-cv\resume\yuanyong_resume_cn.tex
+**yuanyong_resume_cnBackup.tex
+(E:\github\my-cv\resume\yuanyong_resume_cnBackup.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for loaded.
 (E:\github\my-cv\resume\moderncv.cls
@@ -369,10 +369,6 @@ tter compatibility patches
 \cvcolumnautowidth=\skip62
 \bibindent=\skip63
 )
-(E:\github\my-cv\resume\moderncvcolorgreen.sty
-Package: moderncvcolorgreen 2013/04/29 v1.5.1 modern curriculum vitae and lette
-r color scheme: green
-)
 (E:\github\my-cv\resume\moderncvstyleclassic.sty
 Package: moderncvstyleclassic 2013/04/29 v1.5.1 modern curriculum vitae and let
 ter style scheme: classic
@@ -661,6 +657,10 @@ LaTeX Font Info:    Try loading font information for U+mvs on input line 68.
 \cvitemwithcommentmainbox=\box36
 \cvitemwithcommentmainlength=\skip74
 \cvitemwithcommentcommentlength=\skip75
+)
+(E:\github\my-cv\resume\moderncvcolorblue.sty
+Package: moderncvcolorblue 2013/04/29 v1.5.1 modern curriculum vitae and letter
+ color scheme: blue
 )
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
@@ -1119,193 +1119,6 @@ LaTeX Info: Redefining \ttfamily on input line 824.
 \CTEX@r=\count194
 )) ("D:\Program Files\CTEX\CTeX\tex\latex\ctex\def\ctex-utf8.def")
 ("D:\Program Files\CTEX\CTeX\tex\latex\ctex\cfg\ctex.cfg")
-("D:\Program Files\CTEX\MiKTeX\tex\latex\cjk\CJKutf8.sty"
-Package: CJKutf8 2008/12/29 4.8.2
-
-
-! LaTeX Error: Option clash for package CJK.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 \RequirePackageWithOptions
-                               {fontenc}
-? 
-("D:\Program Files\CTEX\MiKTeX\tex\latex\base\fontenc.sty"
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
-))
- fontspec info: Font Garamond does not contain any OpenType `Script' informatio
-n.
-
- fontspec info: Garamond scale = 1.11874.
-
-
- fontspec warning: OpenType feature 'Numbers=OldStyle' (+onum) not available
-(fontspec)  for font 'Garamond',
-(fontspec)  with script '', and language ''.
-
-\g_fontspec_family_Garamond_int=\count195
- fontspec info: Defining font family 'Garamond(0)' for font 'Garamond' with opt
-ions [Scale=MatchLowercase,Numbers=OldStyle,Mapping=tex-text].
-
-\g_fontspec_Garamond(0)_prop=\toks49
- fontspec info: Garamond scale = 1.11874.
-
- fontspec warning: OpenType feature 'Numbers=OldStyle' (+onum) not available
-(fontspec)  for font 'Garamond',
-(fontspec)  with script '', and language ''.
-
- fontspec info: Defining shape 'normal' with NFSS spec.:
-(fontspec)  <->s*[1.11874]"Garamond/ICU:mapping=tex-text;;"
-
- fontspec info: Garamond/B scale = 1.07513.
-
- fontspec warning: OpenType feature 'Numbers=OldStyle' (+onum) not available
-(fontspec)  for font 'Garamond/B',
-(fontspec)  with script '', and language ''.
-
- fontspec info: Defining shape 'bold' with NFSS spec.:
-(fontspec)  <->s*[1.07513]"Garamond/B/ICU:mapping=tex-text;;"
-
- fontspec info: Garamond/I scale = 1.08305.
-
- fontspec warning: OpenType feature 'Numbers=OldStyle' (+onum) not available
-(fontspec)  for font 'Garamond/I',
-(fontspec)  with script '', and language ''.
-
- fontspec info: Defining shape 'italic' with NFSS spec.:
-(fontspec)  <->s*[1.08305]"Garamond/I/ICU:mapping=tex-text;;"
-
- fontspec info: Garamond/BI scale = 1.08305.
-
- fontspec warning: OpenType feature 'Numbers=OldStyle' (+onum) not available
-(fontspec)  for font 'Garamond/BI',
-(fontspec)  with script '', and language ''.
-
- fontspec info: Defining shape 'bold italic' with NFSS spec.:
-(fontspec)  <->s*[1.08305]"Garamond/BI/ICU:mapping=tex-text;;"
-
-LaTeX Font Info:    Font shape `EU1/Garamond(0)/m/n' will be
-(Font)              scaled to size 11.18744pt on input line 28.
-Unknown feature `' in font `Garamond'.
- fontspec info: Times New Roman scale = 0.96364.
-
-\g_fontspec_family_Times New Roman_int=\count196
- fontspec info: Defining font family 'TimesNewRoman(0)' for font 'Times New Rom
-an' with options [Scale=MatchLowercase,Mapping=tex-text].
-
-\g_fontspec_TimesNewRoman(0)_prop=\toks50
- fontspec info: Times New Roman scale = 0.96364.
-
- fontspec info: Defining shape 'normal' with NFSS spec.:
-(fontspec)  <->s*[0.96364]"Times New Roman/ICU:script=latn;language=DFLT;mappin
-g=tex-text;;"
-
- fontspec info: Times New Roman/B scale = 0.94405.
-
- fontspec info: Defining shape 'bold' with NFSS spec.:
-(fontspec)  <->s*[0.94405]"Times New Roman/B/ICU:script=latn;language=DFLT;mapp
-ing=tex-text;;"
-
- fontspec info: Times New Roman/I scale = 0.97534.
-
- fontspec info: Defining shape 'italic' with NFSS spec.:
-(fontspec)  <->s*[0.97534]"Times New Roman/I/ICU:script=latn;language=DFLT;mapp
-ing=tex-text;;"
-
- fontspec info: Times New Roman/BI scale = 0.9522.
-
- fontspec info: Defining shape 'bold italic' with NFSS spec.:
-(fontspec)  <->s*[0.9522]"Times New Roman/BI/ICU:script=latn;language=DFLT;mapp
-ing=tex-text;;"
-
- fontspec info: Times New Roman scale = 0.96364.
-
- fontspec info: Defining font family 'TimesNewRoman(1)' for font 'Times New Rom
-an' with options [Scale=MatchLowercase,].
-
-\g_fontspec_TimesNewRoman(1)_prop=\toks51
- fontspec info: Times New Roman scale = 0.96364.
-
- fontspec info: Defining shape 'normal' with NFSS spec.:
-(fontspec)  <->s*[0.96364]"Times New Roman/ICU:script=latn;language=DFLT;"
-
- fontspec info: Times New Roman/B scale = 0.94405.
-
- fontspec info: Defining shape 'bold' with NFSS spec.:
-(fontspec)  <->s*[0.94405]"Times New Roman/B/ICU:script=latn;language=DFLT;"
-
- fontspec info: Times New Roman/I scale = 0.97534.
-
- fontspec info: Defining shape 'italic' with NFSS spec.:
-(fontspec)  <->s*[0.97534]"Times New Roman/I/ICU:script=latn;language=DFLT;"
-
- fontspec info: Times New Roman/BI scale = 0.9522.
-
- fontspec info: Defining shape 'bold italic' with NFSS spec.:
-(fontspec)  <->s*[0.9522]"Times New Roman/BI/ICU:script=latn;language=DFLT;"
-
- fontspec info: Courier New scale = 1.01927.
-
-\g_fontspec_family_Courier New_int=\count197
- fontspec info: Defining font family 'CourierNew(0)' for font 'Courier New' wit
-h options [Scale=MatchLowercase,].
-
-\g_fontspec_CourierNew(0)_prop=\toks52
- fontspec info: Courier New scale = 1.01927.
-
- fontspec info: Defining shape 'normal' with NFSS spec.:
-(fontspec)  <->s*[1.01927]"Courier New/ICU:script=latn;language=DFLT;"
-
- fontspec info: Courier New/B scale = 0.97212.
-
- fontspec info: Defining shape 'bold' with NFSS spec.:
-(fontspec)  <->s*[0.97212]"Courier New/B/ICU:script=latn;language=DFLT;"
-
- fontspec info: Courier New/I scale = 1.01927.
-
- fontspec info: Defining shape 'italic' with NFSS spec.:
-(fontspec)  <->s*[1.01927]"Courier New/I/ICU:script=latn;language=DFLT;"
-
- fontspec info: Courier New/BI scale = 0.97212.
-
- fontspec info: Defining shape 'bold italic' with NFSS spec.:
-(fontspec)  <->s*[0.97212]"Courier New/BI/ICU:script=latn;language=DFLT;"
-
-LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/n' will be
-(Font)              scaled to size 10.19272pt on input line 31.
- fontspec info: 微软雅黑 scale = 0.7981.
-
-\g_fontspec_family_微软雅黑_int=\count198
- fontspec info: Defining font family '微软雅黑(0)' for font '微软雅黑' 
-with options [Scale=MatchLowercase,].
-
-\g_fontspec_微软雅黑(0)_prop=\toks53
- fontspec info: 微软雅黑 scale = 0.7981.
-
- fontspec info: Defining shape 'normal' with NFSS spec.:
-(fontspec)  <->s*[0.7981]"微软雅黑/ICU:script=latn;language=DFLT;"
-
- fontspec info: 微软雅黑/B scale = 0.7981.
-
- fontspec info: Defining shape 'bold' with NFSS spec.:
-(fontspec)  <->s*[0.7981]"微软雅黑/B/ICU:script=latn;language=DFLT;"
-
- fontspec info: Could not resolve font 微软雅黑/I (it probably doesn't exis
-t).
-
- fontspec info: 微软雅黑/BI scale = 0.7981.
-
- fontspec info: Defining shape 'bold italic' with NFSS spec.:
-(fontspec)  <->s*[0.7981]"微软雅黑/BI/ICU:script=latn;language=DFLT;"
-
- fontspec info: 微软雅黑 scale = 0.7981.
-
-! Undefined control sequence.
-l.38 \setCJKmathfont
-                    {}
-? 
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -1313,9 +1126,9 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count199
-\Gm@cntv=\count200
-\c@Gm@tempcnt=\count201
+\Gm@cnth=\count195
+\Gm@cntv=\count196
+\c@Gm@tempcnt=\count197
 \Gm@bindingoffset=\dimen158
 \Gm@wd@mp=\dimen159
 \Gm@odd@mp=\dimen160
@@ -1324,7 +1137,7 @@ Package ifvtex Info: VTeX not detected.
 \Gm@layoutheight=\dimen163
 \Gm@layouthoffset=\dimen164
 \Gm@layoutvoffset=\dimen165
-\Gm@dimlist=\toks54
+\Gm@dimlist=\toks49
 
 ("D:\Program Files\CTEX\MiKTeX\tex\xelatex\xetexconfig\geometry.cfg"))
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\hyperref\hyperref.sty"
@@ -1372,9 +1185,8 @@ Package: letltxmacro 2008/06/24 v1.3 Let assignment for LaTeX macros (HO)
 Package: kvoptions 2010/02/22 v3.7 Keyval support for LaTeX options (HO)
 )
 \@linkdim=\dimen166
-Normal \count register pool exhausted, switching to extended pool.
-\Hy@linkcounter=\count277
-\Hy@pagecounter=\count278
+\Hy@linkcounter=\count198
+\Hy@pagecounter=\count199
 
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2010/11/26 v6.81v Hyperref: PDFDocEncoding definition (HO)
@@ -1384,7 +1196,7 @@ Now handling font encoding PD1 ...
 ("D:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\intcalc.sty"
 Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
 )
-\Hy@SavedSpaceFactor=\count279
+\Hy@SavedSpaceFactor=\count200
 
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1403,7 +1215,7 @@ Package hyperref Info: Plain pages OFF on input line 4008.
 Package hyperref Info: Backreferencing OFF on input line 4013.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4228.
-\c@Hy@tempcnt=\count280
+\c@Hy@tempcnt=\count201
 LaTeX Info: Redefining \url on input line 4583.
 
 ("D:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\bitset.sty"
@@ -1412,7 +1224,8 @@ Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
 ("D:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\bigintcalc.sty"
 Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
 ))
-\Fld@menulength=\count281
+Normal \count register pool exhausted, switching to extended pool.
+\Fld@menulength=\count277
 \Field@Width=\dimen167
 \Fld@charsize=\dimen168
 Package hyperref Info: Hyper figures OFF on input line 5667.
@@ -1428,9 +1241,9 @@ LaTeX Info: Redefining \pageref on input line 5741.
 ("D:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\atbegshi.sty"
 Package: atbegshi 2010/03/25 v1.12 At begin shipout hook (HO)
 )
-\Hy@abspage=\count282
-\c@Item=\count283
-\c@Hfootnote=\count284
+\Hy@abspage=\count278
+\c@Item=\count279
+\c@Hfootnote=\count280
 )
 
 Package hyperref Message: Driver (autodetected): hxetex.
@@ -1442,10 +1255,10 @@ File: hxetex.def 2010/11/26 v6.81v Hyperref driver for XeTeX
 Package: stringenc 2010/03/01 v1.8 Converts strings between encodings (HO)
 )
 \pdfm@box=\box37
-\c@Hy@AnnotLevel=\count285
-\HyField@AnnotCount=\count286
-\Fld@listcount=\count287
-\c@bookmark@seq@number=\count288
+\c@Hy@AnnotLevel=\count281
+\HyField@AnnotCount=\count282
+\Fld@listcount=\count283
+\c@bookmark@seq@number=\count284
 
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2010/03/16 v1.6 Rerun checks for auxiliary files (HO)
@@ -1458,34 +1271,30 @@ tly
 )
 \Hy@SectionHShift=\skip76
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 75.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 75.
+Package hyperref Info: Option `breaklinks' set `true' on input line 56.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 56.
 
-(E:\github\my-cv\resume\yuanyong_resume_cn.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/n' will be
-(Font)              scaled to size 11.16101pt on input line 75.
-LaTeX Font Info:    Font shape `EU1/微软雅黑(0)/m/n' will be
-(Font)              scaled to size 8.73914pt on input line 75.
+(E:\github\my-cv\resume\yuanyong_resume_cnBackup.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
 
 ABD: EveryShipout initializing macros
 *** you should *not* be loading the inputenc package
@@ -1495,74 +1304,61 @@ ABD: EveryShipout initializing macros
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 75.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 75.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 75.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 75.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 75.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 75.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 75.
-LaTeX Font Info:    Redeclaring math accent \check on input line 75.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 75.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 75.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 75.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 75.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 56.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 56.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 56.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 56.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 56.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 56.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 56.
+LaTeX Font Info:    Redeclaring math accent \check on input line 56.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 56.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 56.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 56.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 56.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 75.
+(Font)              `operators' in the math version `normal' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> EU1/CourierNew(0)/m/n on input line 75.
-
+(Font)                  OT1/lmr/m/n --> EU1/lmr/m/n on input line 56.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 75.
+(Font)              `operators' in the math version `bold' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> EU1/CourierNew(0)/m/n on input line 75
-.
+(Font)                  OT1/lmr/bx/n --> EU1/lmr/m/n on input line 56.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  EU1/CourierNew(0)/m/n --> EU1/CourierNew(0)/m/n on inpu
-t line 75.
+(Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  EU1/CourierNew(0)/m/n --> EU1/CourierNew(0)/m/n on inpu
-t line 75.
+(Font)                  EU1/lmr/m/n --> EU1/lmr/m/n on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> EU1/CourierNew(0)/m/it on input line 7
-5.
+(Font)                  OT1/lmr/m/it --> EU1/lmr/m/it on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> EU1/CourierNew(0)/bx/n on input line 7
-5.
+(Font)                  OT1/lmr/bx/n --> EU1/lmr/bx/n on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> EU1/微软雅黑(0)/m/n on input line 
-75.
+(Font)                  OT1/lmss/m/n --> EU1/lmss/m/n on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> EU1/微软雅黑(0)/m/n on input line 
-75.
+(Font)                  OT1/lmtt/m/n --> EU1/lmtt/m/n on input line 56.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  EU1/CourierNew(0)/m/n --> EU1/CourierNew(0)/bx/n on inp
-ut line 75.
+(Font)                  EU1/lmr/m/n --> EU1/lmr/bx/n on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  EU1/CourierNew(0)/m/n --> EU1/CourierNew(0)/bx/n on inp
-ut line 75.
+(Font)                  EU1/lmr/m/n --> EU1/lmr/bx/n on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> EU1/CourierNew(0)/bx/it on input line
- 75.
+(Font)                  OT1/lmr/bx/it --> EU1/lmr/bx/it on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> EU1/微软雅黑(0)/bx/n on input lin
-e 75.
+(Font)                  OT1/lmss/bx/n --> EU1/lmss/bx/n on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> EU1/微软雅黑(0)/bx/n on input line
- 75.
+(Font)                  OT1/lmtt/m/n --> EU1/lmtt/bx/n on input line 56.
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
@@ -1570,15 +1366,15 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(44.81126pt, 507.88533pt, 44.81128pt)
-* v-part:(T,H,B)=(50.70074pt, 718.29497pt, 76.05113pt)
+* h-part:(L,W,R)=(59.74988pt, 478.00812pt, 59.74988pt)
+* v-part:(T,H,B)=(67.60269pt, 676.04005pt, 101.4041pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=507.88533pt
-* \textheight=718.29497pt
-* \oddsidemargin=-27.45872pt
-* \evensidemargin=-27.45872pt
-* \topmargin=-58.56924pt
+* \textwidth=478.00812pt
+* \textheight=676.04005pt
+* \oddsidemargin=-12.52011pt
+* \evensidemargin=-12.52011pt
+* \topmargin=-41.6673pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -1597,7 +1393,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box38
-Package hyperref Info: Link coloring OFF on input line 75.
+Package hyperref Info: Link coloring OFF on input line 56.
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
@@ -1607,197 +1403,116 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 ("D:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2009/12/18 v1.3 Cleanup title references (HO)
 )
-\c@section@level=\count289
+\c@section@level=\count285
 )
-LaTeX Info: Redefining \ref on input line 75.
-LaTeX Info: Redefining \pageref on input line 75.
-LaTeX Info: Redefining \nameref on input line 75.
+LaTeX Info: Redefining \ref on input line 56.
+LaTeX Info: Redefining \pageref on input line 56.
+LaTeX Info: Redefining \nameref on input line 56.
 
-(E:\github\my-cv\resume\yuanyong_resume_cn.out)
-(E:\github\my-cv\resume\yuanyong_resume_cn.out)
+(E:\github\my-cv\resume\yuanyong_resume_cnBackup.out)
+(E:\github\my-cv\resume\yuanyong_resume_cnBackup.out)
 \@outlinefile=\write4
 \pagenumberwidth=\skip77
-LaTeX Font Info:    Font shape `EU1/微软雅黑(0)/m/n' will be
-(Font)              scaled to size 7.98096pt on input line 75.
-
-
-LaTeX Font Warning: Font shape `EU1/微软雅黑(0)/m/sl' undefined
-(Font)              using `EU1/微软雅黑(0)/m/n' instead on input line 75.
-
-
-LaTeX Font Warning: Font shape `EU1/微软雅黑(0)/m/it' undefined
-(Font)              using `EU1/微软雅黑(0)/m/n' instead on input line 75.
-
 \makecvtitledetailsbox=\box39
-LaTeX Font Info:    Font shape `EU1/微软雅黑(0)/m/sl' will be
-(Font)              scaled to size 7.98096pt on input line 77.
-LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/n' will be
-(Font)              scaled to size 7.1349pt on input line 77.
-LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/n' will be
-(Font)              scaled to size 5.09636pt on input line 77.
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 77.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 58.
+
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 77.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 58.
 
 
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 77.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 58.
 
 
 ("D:\Program Files\CTEX\MiKTeX\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 77.
+(Font)              <10> on input line 58.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 77.
+(Font)              <7> on input line 58.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 77.
-LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/sl' in size <10> not availa
-ble
-(Font)              Font shape `EU1/CourierNew(0)/m/it' tried instead on input 
-line 77.
-LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/it' will be
-(Font)              scaled to size 10.19272pt on input line 77.
- fontspec info: 微软雅黑 scale = 0.7981.
+(Font)              <5> on input line 58.
+ fontspec info: Font SimSun does not contain any OpenType `Script' information.
 
- fontspec info: Defining font family '微软雅黑(1)' for font '微软雅黑' 
-with options [Scale=MatchLowercase,BoldFont={微软雅黑},BoldFeatures={RawFea
-ture={embolden=4}},Scale=0.8].
 
-\g_fontspec_微软雅黑(1)_prop=\toks55
- fontspec info: 微软雅黑 scale = 0.7981.
+\g_fontspec_family_SimSun_int=\count286
+ fontspec info: Defining font family 'SimSun(0)' for font 'SimSun' with options
+ [Ligatures=TeX,BoldFont={SimHei},ItalicFont={[SIMKAI.TTF]}].
 
+\g_fontspec_SimSun(0)_prop=\toks50
  fontspec info: Defining shape 'normal' with NFSS spec.:
-(fontspec)  <->s*[0.8]"微软雅黑/ICU:script=latn;language=DFLT;"
-
- fontspec info: 微软雅黑 scale = 0.7981.
+(fontspec)  <->"SimSun/ICU:mapping=tex-text;;"
 
  fontspec info: Defining shape 'bold' with NFSS spec.:
-(fontspec)  <->s*[0.8]"微软雅黑/ICU:script=latn;language=DFLT;embolden=4;;"
+(fontspec)  <->"SimHei/ICU:mapping=tex-text;;"
 
+ fontspec info: Defining shape 'italic' with NFSS spec.:
+(fontspec)  <->"[SIMKAI.TTF]/ICU:mapping=tex-text;;"
 
- fontspec info: Could not resolve font 微软雅黑/I (it probably doesn't exis
-t).
+ fontspec info: Could not resolve font SimHei/I (it probably doesn't exist).
 
- fontspec info: Could not resolve font 微软雅黑/I (it probably doesn't exis
-t).
-
-
-
-LaTeX Font Warning: Font shape `EU1/微软雅黑(1)/m/sl' undefined
-(Font)              using `EU1/微软雅黑(1)/m/n' instead on input line 77.
-
-LaTeX Font Info:    Font shape `EU1/微软雅黑(1)/m/n' will be
-(Font)              scaled to size 8.00003pt on input line 77.
-LaTeX Font Info:    Font shape `EU1/微软雅黑(1)/m/sl' will be
-(Font)              scaled to size 8.00003pt on input line 77.
-LaTeX Font Info:    Font shape `EU1/微软雅黑(0)/m/sl' will be
-(Font)              scaled to size 11.49257pt on input line 77.
+LaTeX Font Info:    Font shape `EU1/SimSun(0)/m/sl' in size <10> not available
+(Font)              Font shape `EU1/SimSun(0)/m/it' tried instead on input line
+ 58.
+Unknown feature `' in font `[SIMKAI.TTF]/ICU:mapping=tex-text;;'.
+LaTeX Font Info:    Font shape `EU1/SimSun(0)/m/sl' in size <10> not available
+(Font)              Font shape `EU1/SimSun(0)/m/it' tried instead on input line
+ 58.
 \makecvtitlepicturebox=\box40
 File: qr.png Graphic file (type QTm)
-<use  "qr.png" >
+ <use  "qr.png" >
 \makecvtitledetailswidth=\skip78
 \makecvtitlepicturewidth=\skip79
-LaTeX Font Info:    Font shape `EU1/微软雅黑(0)/m/n' will be
-(Font)              scaled to size 27.13525pt on input line 77.
-LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/n' will be
-(Font)              scaled to size 34.65524pt on input line 77.
- fontspec info: 微软雅黑 scale = 0.7981.
+ fontspec info: Font SimSun does not contain any OpenType `Script' information.
 
-LaTeX Font Info:    Font shape `EU1/微软雅黑(1)/m/n' will be
-(Font)              scaled to size 27.2001pt on input line 77.
-LaTeX Font Info:    Font shape `EU1/微软雅黑(1)/m/n' will be
-(Font)              scaled to size 27.2001pt on input line 77.
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
+Unknown feature `' in font `SimSun'.
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 
  []
 
-LaTeX Font Info:    Font shape `EU1/微软雅黑(0)/m/n' will be
-(Font)              scaled to size 11.49257pt on input line 78.
-LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/n' will be
-(Font)              scaled to size 14.6775pt on input line 78.
- fontspec info: 微软雅黑 scale = 0.7981.
+ fontspec info: Font SimSun does not contain any OpenType `Script' information.
 
-LaTeX Font Info:    Font shape `EU1/微软雅黑(1)/m/n' will be
-(Font)              scaled to size 11.52003pt on input line 78.
-LaTeX Font Info:    Font shape `EU1/微软雅黑(1)/m/n' will be
-(Font)              scaled to size 11.52003pt on input line 78.
-LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/n' will be
-(Font)              scaled to size 8.15417pt on input line 80.
-LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/n' will be
-(Font)              scaled to size 6.11563pt on input line 80.
+
+Unknown feature `' in font `SimSun'.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 80.
+(Font)              <10.95> on input line 60.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 80.
+(Font)              <8> on input line 60.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 80.
- fontspec info: 微软雅黑 scale = 0.7981.
+(Font)              <6> on input line 60.
+ fontspec info: Font SimSun does not contain any OpenType `Script' information.
 
-LaTeX Font Info:    Font shape `EU1/微软雅黑(1)/m/n' will be
-(Font)              scaled to size 8.76003pt on input line 80.
-LaTeX Font Info:    Font shape `EU1/微软雅黑(1)/m/n' will be
-(Font)              scaled to size 8.76003pt on input line 80.
-LaTeX Font Info:    Font shape `EU1/微软雅黑(0)/bx/n' will be
-(Font)              scaled to size 8.73914pt on input line 80.
-LaTeX Font Info:    Font shape `EU1/CourierNew(0)/bx/n' will be
-(Font)              scaled to size 10.64473pt on input line 80.
- fontspec info: 微软雅黑 scale = 0.7981.
 
-LaTeX Font Info:    Font shape `EU1/微软雅黑(1)/bx/n' will be
-(Font)              scaled to size 8.76003pt on input line 80.
-Unknown feature `' in font `Microsoft YaHei'.
-LaTeX Font Info:    Font shape `EU1/微软雅黑(1)/bx/n' will be
-(Font)              scaled to size 8.76003pt on input line 80.
-Unknown feature `' in font `Microsoft YaHei'.
-LaTeX Font Info:    Font shape `EU1/微软雅黑(0)/m/sl' will be
-(Font)              scaled to size 8.73914pt on input line 80.
-LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/sl' in size <10.95> not ava
-ilable
-(Font)              Font shape `EU1/CourierNew(0)/m/it' tried instead on input 
-line 80.
-LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/it' will be
-(Font)              scaled to size 11.16101pt on input line 80.
- fontspec info: 微软雅黑 scale = 0.7981.
+Unknown feature `' in font `SimSun'.
+ fontspec info: Font SimSun does not contain any OpenType `Script' information.
 
-LaTeX Font Info:    Font shape `EU1/微软雅黑(1)/m/sl' will be
-(Font)              scaled to size 8.76003pt on input line 80.
-LaTeX Font Info:    Font shape `EU1/微软雅黑(1)/m/sl' will be
-(Font)              scaled to size 8.76003pt on input line 80.
-LaTeX Font Info:    Font shape `EU1/微软雅黑(0)/m/n' will be
-(Font)              scaled to size 9.57715pt on input line 89.
-LaTeX Font Info:    Font shape `EU1/CourierNew(0)/m/n' will be
-(Font)              scaled to size 12.23126pt on input line 89.
- fontspec info: 微软雅黑 scale = 0.7981.
 
-LaTeX Font Info:    Font shape `EU1/微软雅黑(1)/m/n' will be
-(Font)              scaled to size 9.60004pt on input line 89.
-LaTeX Font Info:    Font shape `EU1/微软雅黑(1)/m/n' will be
-(Font)              scaled to size 9.60004pt on input line 89.
- fontspec info: 微软雅黑 scale = 0.7981.
+Unknown feature `' in font `SimHei'.
+ fontspec info: Font SimSun does not contain any OpenType `Script' information.
 
-LaTeX Font Info:    Font shape `EU1/微软雅黑(1)/m/n' will be
-(Font)              scaled to size 8.00003pt on input line 95.
-LaTeX Font Info:    Font shape `EU1/微软雅黑(0)/m/it' will be
-(Font)              scaled to size 7.98096pt on input line 176.
+
+Unknown feature `' in font `SimSun'.
+ fontspec info: Font SimSun does not contain any OpenType `Script' information.
+
+
+Unknown feature `' in font `SimSun'.
 [1
 
-] [2] (E:\github\my-cv\resume\yuanyong_resume_cn.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
+] [2] (E:\github\my-cv\resume\yuanyong_resume_cnBackup.aux) ) 
 Here is how much of TeX's memory you used:
- 25762 strings out of 430486
- 447222 string characters out of 3191344
- 569161 words of memory out of 3000000
- 28350 multiletter control sequences out of 15000+200000
- 11914 words of font info for 86 fonts, out of 3000000 for 9000
+ 25587 strings out of 430486
+ 441893 string characters out of 3191344
+ 559637 words of memory out of 3000000
+ 28217 multiletter control sequences out of 15000+200000
+ 11770 words of font info for 68 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 70i,13n,78p,780b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 70i,12n,77p,786b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on yuanyong_resume_cnBackup.pdf (2 pages).
