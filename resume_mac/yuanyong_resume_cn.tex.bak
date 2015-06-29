@@ -1,0 +1,169 @@
+﻿\documentclass[14pt,a4paper]{moderncv}
+
+%主题设置               
+\moderncvstyle{classic}                        % 选项参数是 ‘casual’, ‘classic’, ‘oldstyle’ 和 ’banking’
+\moderncvcolor{blue} % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+
+%\usepackage[utf8]{inputenc}                   % 替换你正在使用的编码
+%\usepackage{CJKutf8}
+
+% character encoding
+%\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+%\usepackage[noindent]{ctex}
+
+\usepackage{fontspec,xunicode,xltxtra}
+% 设置英文字体
+\defaultfontfeatures{Scale=MatchLowercase} % 设置字体大小，Scale=0.8等
+\setmainfont{Times New Roman} %主字体
+\setsansfont{Times New Roman} %无衬线字体
+\setmonofont{Times New Roman} %等宽字体
+% 设置中文字体
+\usepackage[BoldFont,SlantFont,CJKchecksingle,CJKnumber,CJKtextspaces]{xeCJK}
+\setCJKmainfont{Adobe Heiti Std} %主要中文字体
+\setCJKsansfont{Adobe Heiti Std} %无衬线中文字体
+\setCJKmonofont{Adobe Heiti Std} %等宽中文字体
+
+%\setCJKmainfont[BoldFont={Adobe Heiti Std},ItalicFont={Adobe Kaiti Std}]{Adobe Song Std} %主要中文字体
+%\setCJKsansfont{Adobe Heiti Std} %无衬线中文字体 KaiTi
+%\setCJKmonofont{Adobe Fangsong Std} %等宽中文字体
+
+% 设置最后一次更新时间
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[L]{\footnotesize\textit{袁勇个人简历}}
+\fancyfoot[R]{\footnotesize\textit{最后一次更新于: \today}}
+
+% 调整页边距
+\usepackage[scale=0.85]{geometry}
+\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% 在其他左侧插入标志
+\usepackage{manfnt}
+\newcommand{\hello}{{\tiny\textdbend}}
+
+\usepackage{xcolor}
+\linespread{1.2}
+
+% 设置个人信息
+%\firstname{}
+%\familyname{袁勇}
+\name{\textbf{袁}}{\textbf{勇}}
+\title{\textbf{湖北/男}}                              % optional, remove the line if not wanted
+\address{}{西安市高新区}                       % optional, remove the line if not wanted
+\mobile{150-2955-2208}                         % optional, remove the line if not wanted
+%\phone{phone (optional)}                      % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{willard.yuan@gmail.com}                 % optional, remove the line if not wanted
+\homepage{yongyuan.name/cn}                       % optional, remove the line if not wanted
+%\extrainfo{♂34岁}                             % optional, remove the line if not wanted
+\photo[64pt]{qr}                               % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\social[github]{willard-yuan}
+\quote{\textit{求职意向：图像处理工程师}}
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+\vspace{-3em}      %缩小段落的间距
+
+\section{\textbf{教育背景}}
+\cventry{2013年 -- 2016年}{硕士学位}{中国科学院大学}{信号与信息专业(研究方向：图像检索)}{保研}{}
+\cventry{2009年 -- 2013年}{学士学位}{西安电子科技大学}{电子信息科学与技术专业}{专业 top 3\%}{}
+\vspace{-1em}
+\section{\textbf{出版物}}
+\cventry{2014/04}{\textbf{Yong Yuan}\textnormal{, Xiaoqiang Lu, and Xuelong Li. Learning Hash Functions Using Sparse Reconstruction. ACM ICIMCS, pp. 14-18, 2014(Best Paper Runner-up Award)} }{}{}{}{}
+\cventry{2014/06}{\textnormal{朱文涛，}\textbf{袁勇}\textnormal{. Python计算机视觉编程(译作)，图灵出版社} }{}{}{}{}
+%\cventry{2015.02}{\textnormal{李学龙，卢孝强，}\textbf{袁勇}\textnormal{. 基于潜在语义最小哈希的图像检索的方法(专利)} }{}{}{}{}
+\vspace{-1em}
+
+\section{\textbf{科研经历}}
+%\subsection{中科院西安光学精密机械研究所（2013--至今）}
+\cventry{2013--至今}{基于内容的图像检索(CBIR)}{}{课题研究方向}{}{对海量图像数据，在保持低计算复杂度的前提下，尽可能的提高检索精度进行研究.
+\begin{itemize}
+\item 熟悉CBIR技术及其检索性能指标评价，掌握了BoW模型、相关反馈等图像检索技术.
+\item 掌握了机器学习中一些常用聚类算法、分类方法以及物体识别技术.
+\item 熟悉近几年来比较流行的哈希方法，并针对一些流行的和经典的哈希方法进行了性能测试和指标评价，\link[HABIR: yongyuan.name/habir]{http://yongyuan.name/habir/}.
+\item 深入研究过哈希索引方法，提出一种基于稀疏表达的哈希编码方法，发表于ICIMCS14上.
+\item 参加过pkbigdata上的图像检索大赛，在近似重复样本搜索上积累了一定的经验，有皮革、纺织图像检索的经历.
+\end{itemize}}
+\cventry{2015/01--2015/04}{基于卷积神经网络的CBIR演示原型系统PicSearch}{}{兴趣驱动型项目}{}{PicSearch 是一个在线图像检索演示系统，使用了在 imageNet 上已训练好的 CNN 模型提取图像特征，对于相似语义图像搜索能取得非常满意的检索效果.
+\begin{itemize}
+\item 线下完成图像特征的提取，在线特征匹配与排序用 python 实现，服务器采用了基于python 的 web 开发框架 CherryPy，前端用了 Boostrap 框架.
+\item 图库为包含 29780 张图片的 Caltech-256 公开数据集，代码经过一定的优化后，能及时地响应用户的查询请求 (毫秒级)，在线演示地址\link[PicSearch: search.yongyuan.name]{http://search.yongyuan.name/}.
+\end{itemize}}
+\cventry{2015/03--至今}{基于词袋模型的物体检索原型DupSearch}{}{兴趣驱动型项目}{}{DupSearch是一个针对object retrieval或duplicate search而写的图像检索系统.
+\begin{itemize}
+\item 在oxford building公开数据库上平均检索精度达到83.35\%, 在不复杂化现有模型情况下仍有改进提高 mAP 的空间.
+\item 图像库测试规模达到15万，并且获得了很不错的检索效果，算法原型系统已被某公司买下，15万衣服库检索效果详见\href{https://github.com/willard-yuan/pkbigdata-image-search}{GitHub}.
+%\item 15万衣服库检索效果: \link[github.com/willard-yuan/pkbigdata-image-search]{https://github.com/willard-yuan/pkbigdata-image-search}.
+\end{itemize}}
+\cventry{2014/07--2015/05}{复杂低空飞行的自主避险理论与方法研究(973)}{}{项目参与者}{}{多源协同感知周围环境，对复杂低空环境中可能的危险障碍物进行实时检测，并完成飞行器的自主避险.
+\begin{itemize}
+\item 负责可见光传感器数据与激光雷达传感器点云数据的融合，消除高压线检测时的误检.
+\item 负责桥梁、高压线塔、作为异常目标入侵的滑翔机等危险障碍物的实时检测.
+\item 使用了opencv、dlib等计算机视觉开源库，非电力线类障碍物检测采用HOG+SVM物体检测方法.
+\end{itemize}}
+\vspace{-1em}
+
+\section{\textbf{开源项目}}
+\cvline{2013/02--Now}{整理并实现一些流行典型的哈希算法及多种指标评价，目前该 Matlab工具包已更新至 V2.0，详见\href{https://github.com/willard-yuan/hashing-baseline-for-image-retrieval}{GitHub.}}
+\cvline{2013/12--2014/06}{翻译《Programming Computer Vision with Python》时，为使读者更易于理解书中的内容，重新对书上的代码做了整理，并放在github 上，详见\href{http://yongyuan.name/pcvwithpython/}{项目主页.}}
+\cvline{2014/02--2014/05}{基于稀疏重构的哈希编码方法的matlab代码及检索指标评价，详见\href{https://github.com/willard-yuan/sparse-reconstruction-hashing}{GitHub.}}
+\vspace{-1em}
+
+\section{\textbf{IT技能}}
+\cvline{语言}{\small 精通Python, Matlab, 会C/C++, OpenCV(主要是Python接口), Linux, Django, HTML, CSS}
+\cvline{GitHub}{\small {\link[github.com/willard-yuan]{https://github.com/willard-yuan}}, 活跃}
+\vspace{-1em}      %缩小段落的间距
+
+\section{\textbf{奖项}}
+%\cventry{2014.07}{\textnormal {ICIMCS14最佳论文提名奖}}{}{}{}{}
+%\cventry{2011--2012}{\textnormal {国家奖学金}}{}{}{}{}
+%\cventry{2010--2011}{\textnormal {校内一等奖学金}}{}{}{}{}
+%\cventry{2009--2010}{\textnormal {国家励志奖学金}}{}{}{}{}
+\cvlistdoubleitem{Best Paper Runner-up Award(2014)}{国家奖学金(2012)}
+\cvlistdoubleitem{校内一等奖学金(2010)}{国家励志奖学金(2009)}
+\vspace{-1em}      %缩小段落的间距
+
+\section{\textbf{语言}}
+\cvline{英语}{\small CET-6和\small CET-4，具备阅读专业英文文献、写作及翻译能力，英文博客翻译曾见诸于CSDN云计算首页}
+%\cvlanguage{英语}{具备阅读专业英文文献能力及写作能力}{CET-6}
+\vspace{-1em}      %缩小段落的间距
+
+\section{\textbf{其他}}
+\cvline{\hello}{靠谱，责任心强，乐于助人；热爱计算机视觉与互联网；轻度代码洁癖；具有较好的人际沟通、协调和组织能力。}
+%\cvlistitem{}
+
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}   % 'publications' is the name of a BibTeX file
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
