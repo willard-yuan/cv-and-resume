@@ -16,4 +16,4 @@ LaTeXTools: Reconfigure and migrate setting
 
 配置完后默认的是latex(or pdflatex)引擎模版，所以如果要用xelatex编译引擎的话，需要在tex文件里显示的指出，即在tex的首行添加`%!TEX program = xelatex`即可，
 
-2.添加中文字体支持。中文字体使用`xeCJK`宏包，具体怎么配置中文字体可以参阅[为 MacTeX 配置中文支持](http://liam0205.me/2014/11/02/latex-mactex-chinese-support/)，这篇文章讲得很详细，一路跟着毫无障碍。
+2. 添加中文字体支持。中文字体使用`xeCJK`宏包，具体怎么配置中文字体可以参阅[为 MacTeX 配置中文支持](http://liam0205.me/2014/11/02/latex-mactex-chinese-support/)，这篇文章讲得很详细，一路跟着毫无障碍。
