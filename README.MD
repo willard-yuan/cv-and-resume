@@ -1,10 +1,10 @@
-##＃ Mac版本
+### Mac版本
 
  1. Mac下搭建latex环境。MacTex+Sublime+Skim，具体安装步骤可以参阅[在Mac上通过Sublime、Skim编辑LaTeX](http://painterlin.com/2014/08/10/Using-LaTeX-with-Sublime-and-Skim-for-Mac.html),这篇文章讲得很详细了，另外需要补充的是编译出现：
 
- ```sh
+```sh
 LaTeXTools: you need to migrate your preferences. See the README file for instructions.
- ```
+```
 
  打开Pallte（Command + Shift + P）输入如下命令即可:
 
