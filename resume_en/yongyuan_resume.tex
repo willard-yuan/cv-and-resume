@@ -22,13 +22,21 @@
 
 \documentclass{resume} % Use the custom resume.cls style
 
-\usepackage[left=0.75in, top=0.3in, right=0.75in, bottom=0.4in]{geometry} % Document margins
+\usepackage[left=0.75in, top=0.3in, right=0.75in, bottom=0.5in]{geometry} % Document margins
 %\usepackage[left=0.75in, top=0.5in, right=0.75in, bottom=0.6in]{geometry} % Document margins
+
+% 设置最后一次更新时间
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[L]{\footnotesize\textit{Yong Yuan's resume MacVersion}}
+\fancyfoot[R]{\footnotesize\textit{Last update: \today}}
 
 \name{Yong Yuan} % Your name
 %\address{34418 Bacon Place \\ Fremont, CA 12345} % Your address
 %\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
-\address{(510)~$\cdot$~456~$\cdot$~8972 \\ willard.yuan@gmail.com \\ https://github.com/willard-yuan}
+\address{(086)~$\cdot$~150~$\cdot$~2955~$\cdot$~2208 \\ willard.yuan@gmail.com \\ https://github.com/willard-yuan}
 %Your phone number and email
 \begin{document}
 
@@ -66,7 +74,7 @@ B.S. in Computer Engineering
 \begin{rSection}{PROJECTS}
 
 \begin{pSubsection}{DuplicateSearch}{Graduate Researcher}{Mar. 2015 - Present}
-DupSearch is a image retrieval prototype for duplicate search or object retrieval. It's a project based on BoVW or FV model and I developed it indepently.
+{DupSearch is a image retrieval prototype for duplicate search or object retrieval. It's a project based on BoVW or FV model and I developed it indepently.}
 \item Extracted SIFT feature descriptor to overcome brigthness variance, rotation variance, translation variance and scale variance.
 \item Quantized each extracted local feature into one of visual words, and then represent each image with a global feature by histogram of the visual words.
 \item Built multithreads by openMP to speed up feature extraction and the process of clustering.
@@ -78,16 +86,19 @@ DupSearch is a image retrieval prototype for duplicate search or object retrieva
 %------------------------------------------------
 
 \begin{pSubsection}{PicSearch Web Application}{Graduate Researcher}{Jan. 2015 - Apr. 2015}
-\item PicSearch is an online image retrieval prototype system that uses convolution to the CNN network model, we can achieve very satisfactory search results.
-\item Complete the line image feature extraction, and made some dimensionality reduction, feature matching and sorting line background with python implementation python server using lightweight web development framework CherryPy, using front-end interface optimized Boostrap framework.
-\item Library containing 29,780 images Caltech-256 public data sets, using the characteristics of memory resident mode optimized code, so that it can respond to the user's query (milliseconds) in a timely manner, the online demo Address PicSearch: search.yongyuan .name
+{PicSearch is an online image retrieval demo which uses the vgg CNN model. I developed it for fun and learning the deep learning architect.}
+\item Completed feature extraction offline based on the model pre-trained on imageNet with Matlab.
+\item Made dimensionality reduction by PCA to reduce memory usage (the memory is limited to 1G) and speed up the query response time.
+\item Deployed the prototype with the lightweight web development framework CherryPy on CentOS. The front-end interface was based on Boostrap framework.
+\item Optimized the code to make sure it respond to the user's query (milliseconds) in a timely manner. The image dataset I used is 29,780 images Caltech-256 public dataset and the online demo address of PicSearch is: search.yongyuan.name. The demo has no upload function yet.
 \end{pSubsection}
 \vspace{-0.5em}
 
 %------------------------------------------------
 
-\begin{pSubsection}{Hashing Baseline for Image Retrieval}{Graduate Researcher}{Jan. 2014 - Apr. 2014}
-\item I do the image retrieval research in early 2013. My mission is to design efficient hashing algorithm to map the semantic similar images to the similar codes. There are two main advantages using hashing method for image retrieval, i.e. storage and computation efficience. To let more researchers focus on design hashing algorithm, I have built a hashing baseline, hoping this project can do some help for some researchers.
+\begin{pSubsection}{Hashing Baseline for Image Retrieval}{Graduate Researcher}{Jan. 2014 - Apr. 2015}
+{I do the image retrieval research in early 2013. My mission is to design efficient hashing algorithm to map the semantic similar images to the similar codes. There are two main advantages using hashing method for image retrieval, i.e. storage and computation efficience. To let more researchers focus on design hashing algorithm, I have built a hashing baseline, hoping this project can do some help for some researchers.}
+\item test
 \end{pSubsection}
 \end{rSection}
 

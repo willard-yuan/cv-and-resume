@@ -127,9 +127,11 @@
 % Project FORMATTING
 %----------------------------------------------------------------------------------------
 
-\newenvironment{pSubsection}[3]{ % 3 input arguments - company name, year(s) employed, job title and location
+\newenvironment{pSubsection}[4]{ % 3 input arguments - company name, year(s) employed, job title and location
  {\bf #1}, {\em #2}% Bold company name and date on the right
   \hfill {\em #3}% Italic job title and location
+  \\
+  {#4}
   \smallskip
   \begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
    \itemsep -0.5em \vspace{-0.8em} % Compress items in list together for aesthetics

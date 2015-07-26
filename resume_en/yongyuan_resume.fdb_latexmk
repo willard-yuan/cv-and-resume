@@ -1,18 +1,20 @@
 # Fdb version 3
-["pdflatex"] 1437753730 "yongyuan_resume.tex" "yongyuan_resume.pdf" "yongyuan_resume" 1437753730
+["pdflatex"] 1437879720 "yongyuan_resume.tex" "yongyuan_resume.pdf" "yongyuan_resume" 1437879720
   "/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty" 1303254447 7140 ece2cc23d9f20e1f53975ac167f42d3e ""
   "/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty" 1335995445 6797 68c89f65e01894df882dd523d3fc0a8f ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls" 1428932888 20708 96f8bca6e380179cada1d49716376167 ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty" 1428932888 5159 bb529586d444e85eb00179221b678119 ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo" 1428932888 9195 b429d9ae04d88356fbd16a7b811e600f ""
+  "/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1160175134 20521 e5d13d98d57bd53d4fed3aa61bd29c86 ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty" 1284422013 40502 e003406220954b0716679d7928aedd8a ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty" 1428932888 2594 d18d5e19aa8239cf867fa670c556d2e9 ""
+  "/usr/local/texlive/2015/texmf-dist/tex/latex/lastpage/lastpage.sty" 1427756658 9922 eb7d00b99f0f5207f71a5cdcbafceac1 ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/parskip/parskip.sty" 1285887441 2763 02a40cc5a32805c41d919cfbdba7e99a ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty" 1428932888 13285 001a28447062ce32b9b4a62965626fc4 ""
-  "resume.cls" 1437739162 5460 7bafbeeab1aaab6985241dfcaac2b01b ""
-  "yongyuan_resume.aux" 1437753730 8 a94a2480d3289e625eea47cd1b285758 ""
-  "yongyuan_resume.tex" 1437753728 8615 f8ba5a106f38054417b9f743dc648e2a ""
+  "resume.cls" 1437874910 5472 92882f19ca0fd321fc99b3e7cac52a9e ""
+  "yongyuan_resume.aux" 1437879720 90 e064d179621fa96d6f3b5b70db4c55e1 ""
+  "yongyuan_resume.tex" 1437879718 8957 5a8831f6831ff7ce8e03d89fd562a69c ""
   (generated)
   "yongyuan_resume.pdf"
   "yongyuan_resume.aux"

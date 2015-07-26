@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.22)  25 JUL 2015 00:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.22)  26 JUL 2015 11:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -70,21 +70,35 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen112
 \Gm@dimlist=\toks16
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip45
+\f@ncyO@elh=\skip46
+\f@ncyO@erh=\skip47
+\f@ncyO@olh=\skip48
+\f@ncyO@orh=\skip49
+\f@ncyO@elf=\skip50
+\f@ncyO@erf=\skip51
+\f@ncyO@olf=\skip52
+\f@ncyO@orf=\skip53
+)
 (./yongyuan_resume.aux)
 \openout1 = `yongyuan_resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -95,11 +109,11 @@ LaTeX Font Info:    ... okay on input line 33.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(54.2025pt, 505.89pt, 54.2025pt)
-* v-part:(T,H,B)=(21.68121pt, 744.38123pt, 28.90755pt)
+* v-part:(T,H,B)=(21.68121pt, 737.15378pt, 36.135pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=505.89pt
-* \textheight=744.38123pt
+* \textheight=737.15378pt
 * \oddsidemargin=-18.06749pt
 * \evensidemargin=-18.06749pt
 * \topmargin=-87.58878pt
@@ -120,43 +134,49 @@ LaTeX Font Info:    ... okay on input line 33.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 33.
+(Font)              <10.95> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 33.
+(Font)              <8> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 33.
+(Font)              <6> on input line 41.
 
-Overfull \hbox (30.0pt too wide) in paragraph at lines 33--33
+Overfull \hbox (30.0pt too wide) in paragraph at lines 41--41
 [] 
  []
 
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (378.56763pt too wide) in paragraph at lines 128--134
+Overfull \hbox (378.56763pt too wide) in paragraph at lines 139--145
 [][] 
  []
 
+
+AED: lastpage setting LastPage
 [2] (./yongyuan_resume.aux) ) 
 Here is how much of TeX's memory you used:
- 874 strings out of 493089
- 11952 string characters out of 6134842
- 76418 words of memory out of 5000000
- 4403 multiletter control sequences out of 15000+600000
- 7639 words of font info for 27 fonts, out of 8000000 for 9000
+ 1045 strings out of 493089
+ 14073 string characters out of 6134842
+ 80271 words of memory out of 5000000
+ 4564 multiletter control sequences out of 15000+600000
+ 8283 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,6n,21p,459b,148s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,10n,43p,474b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmti10.pfb>
-Output written on yongyuan_resume.pdf (2 pages, 77161 bytes).
+amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmti9.pfb>
+Output written on yongyuan_resume.pdf (2 pages, 90975 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 35 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
