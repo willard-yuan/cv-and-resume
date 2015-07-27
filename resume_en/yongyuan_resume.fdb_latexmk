@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1437879720 "yongyuan_resume.tex" "yongyuan_resume.pdf" "yongyuan_resume" 1437879720
+["pdflatex"] 1437979747 "yongyuan_resume.tex" "yongyuan_resume.pdf" "yongyuan_resume" 1437979747
   "/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty" 1303254447 7140 ece2cc23d9f20e1f53975ac167f42d3e ""
   "/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty" 1335995445 6797 68c89f65e01894df882dd523d3fc0a8f ""
@@ -13,9 +13,9 @@
   "/usr/local/texlive/2015/texmf-dist/tex/latex/parskip/parskip.sty" 1285887441 2763 02a40cc5a32805c41d919cfbdba7e99a ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty" 1428932888 13285 001a28447062ce32b9b4a62965626fc4 ""
   "resume.cls" 1437874910 5472 92882f19ca0fd321fc99b3e7cac52a9e ""
-  "yongyuan_resume.aux" 1437879720 90 e064d179621fa96d6f3b5b70db4c55e1 ""
-  "yongyuan_resume.tex" 1437879718 8957 5a8831f6831ff7ce8e03d89fd562a69c ""
+  "yongyuan_resume.aux" 1437979747 90 e064d179621fa96d6f3b5b70db4c55e1 ""
+  "yongyuan_resume.tex" 1437979746 9308 ad9e98ed74a26782bea303b60873bf09 ""
   (generated)
-  "yongyuan_resume.pdf"
   "yongyuan_resume.aux"
   "yongyuan_resume.log"
+  "yongyuan_resume.pdf"
