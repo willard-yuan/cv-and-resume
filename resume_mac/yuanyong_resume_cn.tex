@@ -63,7 +63,7 @@
 %\extrainfo{♂34岁}                             % optional, remove the line if not wanted
 \photo[64pt]{qr}                               % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
 \social[github]{willard-yuan}
-\quote{\textit{求职意向：算法工程师}}
+\quote{\textit{求职意向：基础研究}}
 
 % to show numerical labels in the bibliography; only useful if you make citations in your resume
 %\makeatletter
@@ -86,24 +86,18 @@
 \cventry{2013年 -- 2016年}{硕士学位}{中国科学院大学}{信号与信息专业(研究方向：图像检索)}{保研}{}
 \cventry{2009年 -- 2013年}{学士学位}{西安电子科技大学}{电子信息科学与技术专业}{专业 top 3\%}{}
 %\vspace{-1em}
-\section{\textbf{出版物}}
-
-\cventry{2014/04}{\textbf{Yong Yuan}\textnormal{, Xiaoqiang Lu, and Xuelong Li. Learning Hash Functions Using Sparse Reconstruction. ACM ICIMCS, pp. 14-18, 2014(Best Paper Runner-up Award)} }{}{}{}{}
-\cventry{2014/06}{\textnormal{朱文涛，}\textbf{袁勇}\textnormal{. \href{http://www.ituring.com.cn/book/1349}{Python计算机视觉编程(译作)}，图灵出版社} }{}{}{}{}
-%\cventry{2015.02}{\textnormal{李学龙，卢孝强，}\textbf{袁勇}\textnormal{. 基于潜在语义最小哈希的图像检索的方法(专利)} }{}{}{}{}
-%\vspace{-1em}
 
 \section{\textbf{科研经历}}
-%\subsection{中科院西安光学精密机械研究所（2013--至今）}
+\subsection{中科院西安光学精密机械研究所（2013--至今）}
 \cventry{2013--至今}{基于内容的图像检索(CBIR)}{}{课题研究方向}{}{对大规模图像集，在保持低计算复杂度的前提下，尽可能的提高图像检索精度.
 \begin{itemize}
-\item 精通CBIR技术及其检索性能指标评价，熟练掌握了BoW词袋模型、SIFT/SURF、VLAD等特征描述子。
+\item 精通CBIR技术及其检索性能指标评价，熟练掌握了BoW词袋模型、SIFT、VLAD、FV等特征描述子。
 \item 通过不断学习与积累掌握了机器学习中一些常用的降维手段、聚类算法、图像分类方法以及图像物体识别技术.
 \item 深入研究过基于哈希的大规模图像检索技术，熟悉近几年来比较流行的哈希方法。针对一些流行的和经典的哈希方法进行了性能测试和指标评价，详见\link[HABIR工具包主页]{http://yongyuan.name/habir/}，并提出一种基于稀疏表达的哈希编码方法，发表于ICIMCS14上，另新写的一篇关于哈希的文章待投。
 \item 参加过pkbigdata上的图像检索大赛，在衣服、鞋子等大型图像库(15万)做同款搜索积累了较多的经验；有对特定类图像诸如皮革、纺织图像等进行检索的经历；在13万量级的图库上做过广告logo的搜索。
 \end{itemize}}
 
-\cventry{2015/01--2015/04}{基于卷积神经网络的CBIR演示原型系统PicSearch}{}{兴趣驱动型项目}{独立开发}{PicSearch是一个在线图像检索原型系统，使用到了CNN卷积网络模型，能取得非常满意的检索效果.
+\cventry{2015/01--2015/04}{基于卷积神经网络的CBIR演示原型系统PicSearch}{}{兴趣驱动型项目}{协作开发}{PicSearch是一个在线图像检索原型系统，使用到了CNN卷积网络模型，能取得非常满意的检索效果.
 \begin{itemize}
 \item 线下完成图像特征的提取，并做了一定的降维处理，后台在线特征匹配与排序用python实现，服务器采用了python轻量级web开发框架CherryPy，采用Boostrap框架优化前端交互界面.
 \item 图库为包含29780张图片的Caltech-256公开数据集，采用特征常驻内存的方式进行了代码的优化，使其能及时地响应用户的查询请求 (毫秒级)，在线演示地址PicSearch: \link[search.yongyuan.name]{http://search.yongyuan.name/}.
@@ -112,7 +106,7 @@
 \cventry{2015/03--至今}{基于词袋模型的物体检索原型DupSearch}{}{兴趣驱动型项目}{独立开发}{DupSearch是一个针对object retrieval或duplicate search而写的图像检索原型系统，具有较大的应用价值.
 \begin{itemize}
 \item 在oxford building公开数据库上平均检索精度达到83.35\%，对于光照、旋转、视角等具有较好的适应性，在线匹配在服务器上能较快的响应查询，并且在不复杂化现有模型情况下仍有改进提高mAP的空间.
-\item 图像库测试规模达15万，可以获得了很不错的检索效果，算法原型系统已售予某公司，15万衣服库检索效果详见\href{https://github.com/willard-yuan/pkbigdata-image-search}{GitHub}，此外，对于广告logo的搜索也能取得很高的检索精度。
+\item 图像库测试规模达15万，可以获得了很不错的检索效果，算法原型系统已售予某公司，15万衣服库检索示例详见\href{https://github.com/willard-yuan/pkbigdata-image-search}{GitHub}，此外，对于广告logo的搜索也能取得很高的检索精度。
 \end{itemize}}
 
 \cventry{2014/07--2015/05}{复杂低空飞行的自主避险理论与方法研究(973)}{}{项目参与者}{}{多源协同感知周围环境，对复杂低空环境中可能的危险障碍物进行实时检测，并完成飞行器的自主避险.
@@ -121,6 +115,13 @@
 \item 负责桥梁、高压线塔、作为异常目标入侵的滑翔机等危险障碍物的实时检测.
 \item 使用了opencv、dlib等计算机视觉开源库，非电力线类障碍物检测采用HOG+SVM物体检测方法.
 \end{itemize}}
+
+\section{\textbf{出版物}}
+
+\cventry{2014/04}{\textbf{Yong Yuan}\textnormal{, Xiaoqiang Lu, and Xuelong Li. Learning Hash Functions Using Sparse Reconstruction. ACM ICIMCS, pp. 14-18, 2014(Best Paper Runner-up Award)} }{}{}{}{}
+\cventry{2014/06}{\textnormal{朱文涛，}\textbf{袁勇}\textnormal{. \href{http://www.ituring.com.cn/book/1349}{Python计算机视觉编程(译作)}，图灵出版社} }{}{}{}{}
+%\cventry{2015.02}{\textnormal{李学龙，卢孝强，}\textbf{袁勇}\textnormal{. 基于潜在语义最小哈希的图像检索的方法(专利)} }{}{}{}{}
+%\vspace{-1em}
 
 %\vspace{-1em}
 
@@ -131,9 +132,9 @@
 %\vspace{-1em}
 
 \section{\textbf{IT技能}}
-\cvline{编程语言}{\small 熟练Python, Matlab, 会C++/C, HTML, CSS}
+\cvline{编程语言}{\small 会C++/C, 熟练Python, Matlab, 熟悉HTML, CSS}
 \cvline{机器学习}{\small 精通CBIR技术，熟练掌握SVM、BoF、ANN、哈希等常见机器学习方法，了解深度学习模型}
-\cvline{常用工具}{\small Linux、Mac OS、Git、Chrome、OpenCV, Python web开发框架Django}
+\cvline{常用工具}{\small Linux、Mac OS、Git、OpenCV, Python web开发框架Django}
 \cvline{GitHub}{\small {\link[github.com/willard-yuan]{https://github.com/willard-yuan}}, 活跃}
 %\vspace{-1em}      %缩小段落的间距
 
@@ -147,12 +148,13 @@
 %\vspace{-1em}      %缩小段落的间距
 
 \section{\textbf{语言}}
-\cvline{英语}{\small CET-6和\small CET-4，具备阅读专业英文文献、写作及翻译能力，英文博客\href{http://www.csdn.net/article/2015-06-16/2824981}{译文}曾见诸CSDN云计算首页。}
+\cvline{英语}{\small CET-6和\small CET-4，具备专业英文文献阅读、写作及翻译能力，曾有\href{http://www.csdn.net/article/2015-06-16/2824981}{译文}见诸CSDN云计算首页。}
 %\cvlanguage{英语}{具备阅读专业英文文献能力及写作能力}{CET-6}
 %\vspace{-1em}      %缩小段落的间距
 
 \section{\textbf{其他}}
-\cvline{\hello}{热爱计算机视觉与互联网；喜欢编码，轻度代码洁癖，有写\href{http://yongyuan.name/blog/}{博客}进行总结的习惯；具有较好的人际沟通、协调和组织能力。}
+\cvline{\hello}{喜欢编码，有写\href{http://yongyuan.name/blog/}{博客}进行总结的习惯；具备较好的人际沟通、协调和组织能力。}
+%\cvline{\hello}{热爱计算机视觉与互联网；喜欢编码，轻度代码洁癖，有写\href{http://yongyuan.name/blog/}{博客}进行总结的习惯；具有较好的人际沟通、协调和组织能力。}
 %\cvlistitem{}
 
 % Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
