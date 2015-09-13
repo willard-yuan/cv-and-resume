@@ -76,9 +76,9 @@ B.S. in Computer Engineering
 \begin{pSubsection}{DuplicateSearch}{Graduate Researcher}{Mar. 2015 - Present}
 {DupSearch is a image retrieval prototype for duplicate search or object retrieval. It's a project based on BoVW or FV model and I developed it indepently.}
 \item Extracted SIFT feature descriptor to overcome brigthness variance, rotation variance, translation variance and scale variance.
-\item Quantized each extracted local feature into one of visual words, and then represent each image with a global feature by histogram of the visual words.
+\item Quantized each extracted local feature into one of visual words, and represented each image with a global feature by histogram of the visual words.
 \item Built multithreads by openMP to speed up feature extraction and the process of clustering.
-\item Improved the mean average precision (mAP) by reranking algorithm. On Oxford Building public database the mAP can reach 84.89\% after reranking with 500,000 virtual words.
+\item Improved the mean average precision (mAP) by reranking algorithm. On Oxford Building public database the mAP reached 84.89\% after reranking with 500,000 virtual words.
 \item Tested the prototype on two large datasets including 150,000 clothes images and 130,000+ logo images, and optimized the search time and accuracy.
 \end{pSubsection}
 \vspace{-0.5em}
@@ -90,7 +90,7 @@ B.S. in Computer Engineering
 \item Completed feature extraction offline based on the model pre-trained on imageNet with Matlab.
 \item Made dimensionality reduction by PCA to reduce memory usage (the memory is limited to 1G) and speed up the query response time.
 \item Deployed the prototype with the lightweight web development framework CherryPy on CentOS. The front-end interface was based on Boostrap framework.
-\item Optimized the code to make sure it respond to the user's query (milliseconds) in a timely manner. The image dataset I used is 29,780 images Caltech-256 public dataset and the online demo address of PicSearch is: search.yongyuan.name. The demo has no upload function yet.
+\item Optimized the code to make sure it respond to the user's query (milliseconds) in a timely manner. The image dataset I used is Caltech-256 public dataset (29,780 images) and the online demo address of PicSearch is: search.yongyuan.name. The demo has no upload function yet.
 \end{pSubsection}
 \vspace{-0.5em}
 
