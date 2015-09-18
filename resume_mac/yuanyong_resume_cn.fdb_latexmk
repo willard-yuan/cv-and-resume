@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1442106342 "yuanyong_resume_cn.tex" "yuanyong_resume_cn.pdf" "yuanyong_resume_cn" 1442106344
+["pdflatex"] 1442535471 "yuanyong_resume_cn.tex" "yuanyong_resume_cn.pdf" "yuanyong_resume_cn" 1442535473
   "/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty" 1303254447 8237 52810bdb4db2270e717422560a104aea ""
   "/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty" 1338332114 189108 8b3553a56c83ff61acecb36b75d817e2 ""
@@ -141,11 +141,11 @@
   "moderncvstyleclassic.sty" 1435578202 13136 5d6931969659dd81582a0ea73c756570 ""
   "qr.png" 1435578202 504 a6cabe47f2f9b043b4e516bc37019558 ""
   "tweaklist.sty" 1435578202 1966 8ce3a021c0bc6369db88faeddf828d71 ""
-  "yuanyong_resume_cn.aux" 1442106344 1436 0b3bd7257272c36092213e7a1cbcc5a2 ""
-  "yuanyong_resume_cn.out" 1442106344 763 9d453c4c4902651bff1a31905194e26b ""
-  "yuanyong_resume_cn.tex" 1442106342 11380 9dd33dbe6a10763d1d07c10bdba2dfd1 ""
+  "yuanyong_resume_cn.aux" 1442535472 1436 0b3bd7257272c36092213e7a1cbcc5a2 ""
+  "yuanyong_resume_cn.out" 1442535473 763 9d453c4c4902651bff1a31905194e26b ""
+  "yuanyong_resume_cn.tex" 1442535470 11496 e9b2be5ed5e811b392766f4d7a71da00 ""
   (generated)
-  "yuanyong_resume_cn.out"
-  "yuanyong_resume_cn.aux"
   "yuanyong_resume_cn.pdf"
+  "yuanyong_resume_cn.aux"
   "yuanyong_resume_cn.log"
+  "yuanyong_resume_cn.out"
