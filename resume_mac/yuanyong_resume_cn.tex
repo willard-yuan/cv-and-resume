@@ -13,7 +13,7 @@
 \setmonofont{Hiragino Sans GB} %等宽字体
 % 设置中文字体
 \usepackage{xeCJK}
-% Scheme: {STFangsong}, 冬青黑体简体中文{Hiragino Sans GB W3}, 
+% Scheme: {STFangsong}, 冬青黑体简体中文{Hiragino Sans GB W3},
 \setCJKmainfont{Hiragino Sans GB W3}
 \setCJKsansfont{Hiragino Sans GB W3}
 \setCJKmonofont{Hiragino Sans GB W3}
@@ -63,7 +63,7 @@
 %\extrainfo{♂34岁}                             % optional, remove the line if not wanted
 \photo[64pt]{qr}                               % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
 \social[github]{willard-yuan}
-\quote{\textit{求职意向：视觉计算研发工程师}}
+%\quote{\textit{求职意向：视觉计算研发工程师}}
 
 % to show numerical labels in the bibliography; only useful if you make citations in your resume
 %\makeatletter
@@ -92,21 +92,29 @@
 \cventry{2013--至今}{基于内容的图像检索(CBIR)}{}{课题研究方向}{}{对大规模图像集，在保持低计算复杂度的前提下，尽可能的提高图像检索精度.
 \begin{itemize}
 \item 精通CBIR技术及其检索性能指标评价，熟练掌握了BoW词袋模型、SIFT、VLAD、FV等特征描述子。
-\item 通过不断学习与积累掌握了机器学习中一些常用的降维手段、聚类算法、图像分类方法以及图像物体识别技术.
+\item 掌握并积累了机器学习中一些常用的降维手段、聚类算法、图像分类方法以及图像物体识别技术.
 \item 深入研究过基于哈希的大规模图像检索技术，熟悉近几年来比较流行的哈希方法。针对一些流行的和经典的哈希方法进行了性能测试和指标评价，详见\link[HABIR工具包主页]{http://yongyuan.name/habir/}，并提出一种基于稀疏表达的哈希编码方法，发表于ICIMCS14上，另新写的一篇关于哈希的文章待投。
 \item 参加过pkbigdata上的图像检索大赛，在衣服、鞋子等大型图像库(15万)做同款搜索积累了较多的经验；有对特定类图像诸如皮革、纺织图像等进行检索的经历；在13万量级的图库上做过广告logo的搜索。
+\item 对人脸数据检索与识别、医学影像检索有相应的经历，并对CNN卷积网络做近似样本检索具备一定的理解。
 \end{itemize}}
 
 \cventry{2015/01--2015/04}{基于卷积神经网络的CBIR演示原型系统PicSearch}{}{兴趣驱动型项目}{协作开发}{PicSearch是一个在线图像检索原型系统，使用到了CNN卷积网络模型，能取得非常满意的检索效果.
 \begin{itemize}
 \item 线下完成图像特征的提取，并做了一定的降维处理，后台在线特征匹配与排序用python实现，服务器采用了python轻量级web开发框架CherryPy，采用Boostrap框架优化前端交互界面.
-\item 图库为包含29780张图片的Caltech-256公开数据集，采用特征常驻内存的方式进行了代码的优化，使其能及时地响应用户的查询请求 (毫秒级)，在线演示地址PicSearch: \link[search.yongyuan.name]{http://search.yongyuan.name/}.
+\item 图库为包含29780张图片的Caltech-256公开数据集，采用特征常驻内存的方式进行了代码的优化，使其能及时地响应用户的查询请求(毫秒级)，在线演示地址PicSearch: \link[search.yongyuan.name]{http://search.yongyuan.name/}(已下线)，本地演示效果: \link[演示视频]{http://v.youku.com/v_show/id_XMTM0NzYyMzE4OA==.html?firsttime=0}.
 \end{itemize}}
 
 \cventry{2015/03--至今}{基于词袋模型的物体检索原型DupSearch}{}{兴趣驱动型项目}{独立开发}{DupSearch是一个针对object retrieval或duplicate search而写的图像检索原型系统，具有较大的应用价值.
 \begin{itemize}
 \item 在oxford building公开数据库上平均检索精度达到83.35\%，对于光照、旋转、视角等具有较好的适应性，在线匹配在服务器上能较快的响应查询，并且在不复杂化现有模型情况下仍有改进提高mAP的空间.
 \item 图像库测试规模达15万，可以获得了很不错的检索效果，算法原型系统已售予某公司，15万衣服库检索示例详见\href{https://github.com/willard-yuan/pkbigdata-image-search}{GitHub}，此外，对于广告logo的搜索也能取得很高的检索精度。
+\end{itemize}}
+
+\cventry{2015/10--至今}{ETRACK眼控打字安卓系统}{}{团队项目}{合伙人}{眼控打字，用户对象为渐冻人，使得用户可以通过眼睛控制键盘打字交流.
+\begin{itemize}
+\item 负责设计瞳孔检测与瞳孔中心检测算法并用C++实现，采用OpenMP实现多线程实时处理.
+\item 负责设计瞳孔中心到屏幕的校正方法并用C++实现，通过安卓NDK供JAVA调用.
+\item 负责桌面版本开发，使用QT框架.
 \end{itemize}}
 
 \cventry{2014/07--2015/05}{复杂低空飞行的自主避险理论与方法研究(973)}{}{项目参与者}{}{多源协同感知周围环境，对复杂低空环境中可能的危险障碍物进行实时检测，并完成飞行器的自主避险.
@@ -118,6 +126,7 @@
 
 \section{\textbf{出版物}}
 
+\cventry{2014/04}{\textnormal{Xuelong Li}, \textbf{Yong Yuan} \textnormal{and Xiaoqiang Lu, Latent Semantic Minimal Hashing for Image Retrieval. IEEE TIP, 2016(MAJOR REVISION)} }{}{}{}{}
 \cventry{2014/04}{\textbf{Yong Yuan}\textnormal{, Xiaoqiang Lu, and Xuelong Li. Learning Hash Functions Using Sparse Reconstruction. ACM ICIMCS, pp. 14-18, 2014(Best Paper Runner-up Award)} }{}{}{}{}
 \cventry{2014/06}{\textnormal{朱文涛，}\textbf{袁勇}\textnormal{. \href{http://www.ituring.com.cn/book/1349}{Python计算机视觉编程(译作)}，图灵出版社} }{}{}{}{}
 %\cventry{2015.02}{\textnormal{李学龙，卢孝强，}\textbf{袁勇}\textnormal{. 基于潜在语义最小哈希的图像检索的方法(专利)} }{}{}{}{}
@@ -126,15 +135,16 @@
 %\vspace{-1em}
 
 \section{\textbf{开源项目}}
+\cvline{2015/04--Now}{基于MatConvNet以及VGGNet卷积神经网络模型抽取特征，以余弦距离作为相似性度量写的一个CNN用于图像检索的实验工具包，详见\href{https://github.com/willard-yuan/CNN-for-Image-Retrieval}{GitHub.}}
 \cvline{2013/02--Now}{整理并实现了一些流行的哈希算法及多种指标评价，目前该Matlab工具包已更新至V2.0，详见\href{https://github.com/willard-yuan/hashing-baseline-for-image-retrieval}{GitHub.}}
 \cvline{2013/12--2014/06}{翻译《Programming Computer Vision with Python》时，为使读者更易于理解书中的内容，重新对书上的代码做了整理，并放在github 上，详见\href{http://yongyuan.name/pcvwithpython/}{项目主页.}}
 \cvline{2014/02--2014/05}{基于稀疏重构的哈希编码方法的matlab代码及检索指标评价，详见\href{https://github.com/willard-yuan/sparse-reconstruction-hashing}{GitHub.}}
 %\vspace{-1em}
 
 \section{\textbf{IT技能}}
-\cvline{编程语言}{\small 会C++/C, 熟练Python, Matlab, 熟悉HTML, CSS}
-\cvline{机器学习}{\small 精通CBIR技术，熟练掌握SVM、BoF、ANN、哈希等常见机器学习方法，了解深度学习模型}
-\cvline{常用工具}{\small Linux、Mac OS、Git、OpenCV, Python web开发框架Django}
+\cvline{编程语言}{\small 会C++/C、OpenCV以及QT, 熟练Python, Matlab, 熟悉HTML, CSS}
+\cvline{机器学习}{\small 精通CBIR技术(4年经历)，熟练掌握SVM、BoF、ANN、哈希等常见机器学习方法，了解深度学习模型}
+\cvline{常用工具}{\small Mac OS、Linux、Git、OpenCV, Xcode、ipython notebook、Python web开发框架Django}
 \cvline{GitHub}{\small {\link[github.com/willard-yuan]{https://github.com/willard-yuan}}, 活跃}
 %\vspace{-1em}      %缩小段落的间距
 
@@ -143,8 +153,8 @@
 %\cventry{2011--2012}{\textnormal {国家奖学金}}{}{}{}{}
 %\cventry{2010--2011}{\textnormal {校内一等奖学金}}{}{}{}{}
 %\cventry{2009--2010}{\textnormal {国家励志奖学金}}{}{}{}{}
-\cvlistdoubleitem{Best Paper Runner-up Award(2014年7月)}{国家奖学金(2012年11月)}
-\cvlistdoubleitem{优秀学生巡回报告团成员(2012年12月)}{}
+\cvlistdoubleitem{三好学生(2016年4月)}{Best Paper Runner-up Award(2014年7月)}
+\cvlistdoubleitem{优秀学生巡回报告团成员(2012年12月)}{国家奖学金(2012年11月)}
 \cvlistdoubleitem{校内一等奖学金(2011年11月)}{国家励志奖学金(2010年11月)}
 %\vspace{-1em}      %缩小段落的间距
 
