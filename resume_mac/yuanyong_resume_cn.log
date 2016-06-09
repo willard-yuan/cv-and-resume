@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.6.22)  2 JUN 2016 20:02
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.6.22)  9 JUN 2016 22:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5199,7 +5199,7 @@ Package microtype Warning: Unknown slot number of character
 (microtype)                `T1-default'.
 
 LaTeX Font Info:    Font shape `EU1/HiraginoSansGB(0)/m/n' will be
-(Font)              scaled to size 7.38007pt on input line 120.
+(Font)              scaled to size 7.38007pt on input line 127.
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `\textendash '
@@ -5322,16 +5322,16 @@ Package microtype Warning: Unknown slot number of character
 
 
 LaTeX Font Warning: Font shape `EU1/HiraginoSansGB(0)/m/it' undefined
-(Font)              using `EU1/HiraginoSansGB(0)/m/n' instead on input line 120
+(Font)              using `EU1/HiraginoSansGB(0)/m/n' instead on input line 127
 .
 
 
 LaTeX Font Warning: Font shape `EU1/HiraginoSansGBW3(0)/m/it' undefined
 (Font)              using `EU1/HiraginoSansGBW3(0)/m/n' instead on input line 1
-20.
+27.
 
 LaTeX Font Info:    Font shape `EU1/HiraginoSansGBW3(0)/m/n' will be
-(Font)              scaled to size 7.38007pt on input line 120.
+(Font)              scaled to size 7.38007pt on input line 127.
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `\textendash '
@@ -5453,7 +5453,7 @@ Package microtype Warning: Unknown slot number of character
 (microtype)                `T1-default'.
 
 LaTeX Font Info:    Font shape `EU1/HiraginoSansGB(0)/m/it' will be
-(Font)              scaled to size 7.38007pt on input line 120.
+(Font)              scaled to size 7.38007pt on input line 127.
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `\textendash '
@@ -5576,7 +5576,7 @@ Package microtype Warning: Unknown slot number of character
 
 [1
 
-] [2]
+]
 LaTeX Font Info:    Font shape `EU1/HiraginoSansGB(0)/m/n' will be
 (Font)              scaled to size 4.92004pt on input line 168.
 
@@ -5702,7 +5702,7 @@ Package microtype Warning: Unknown slot number of character
 
 
 AED: lastpage setting LastPage
-[3]
+[2]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
  (./yuanyong_resume_cn.aux)
@@ -5716,10 +5716,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  35774 strings out of 493706
  713295 string characters out of 6145769
- 802334 words of memory out of 5000000
+ 805334 words of memory out of 5000000
  38650 multiletter control sequences out of 15000+600000
  29390 words of font info for 70 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  69i,11n,113p,10370b,781s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on yuanyong_resume_cn.pdf (3 pages).
+Output written on yuanyong_resume_cn.pdf (2 pages).
