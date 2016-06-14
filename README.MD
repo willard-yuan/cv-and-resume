@@ -18,3 +18,16 @@ LaTeXTools: Reconfigure and migrate setting
 
 2.添加中文字体支持。中文字体使用`xeCJK`宏包，具体怎么配置中文字体可以参阅[为 MacTeX 配置中文支持](http://liam0205.me/2014/11/02/latex-mactex-chinese-support/)，这篇文章讲得很详细，一路跟着毫无障碍。
 
+### 优化方案
+
+1. [modify size of blank spaces](http://tex.stackexchange.com/questions/82861/moderncv-modify-size-of-blank-spaces).
+2. [How to change title font size in moderncv?](http://tex.stackexchange.com/questions/128052/how-to-change-title-font-size-in-moderncv)
+3. [Changing margins in moderncv](http://tex.stackexchange.com/questions/12996/changing-margins-in-moderncv)
+
+~~~text
+As written in the template, you can use the following command in the preamble;
+\setlength{\hintscolumnwidth}{3cm}
+
+Change "3cm" by whatever length you wish.
+~~~
+
