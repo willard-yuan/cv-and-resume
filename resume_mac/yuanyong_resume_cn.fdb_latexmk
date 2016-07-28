@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1467678306 "yuanyong_resume_cn.tex" "yuanyong_resume_cn.pdf" "yuanyong_resume_cn" 1467678308
+["pdflatex"] 1469634452 "yuanyong_resume_cn.tex" "yuanyong_resume_cn.pdf" "yuanyong_resume_cn" 1469634454
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1136768653 3584 929cdff2b7a8c11bd4d49fd68cb0ae70 ""
@@ -167,11 +167,11 @@
   "moderncvstyleclassic.sty" 1435578202 13136 5d6931969659dd81582a0ea73c756570 ""
   "qr.png" 1435578202 504 a6cabe47f2f9b043b4e516bc37019558 ""
   "tweaklist.sty" 1435578202 1966 8ce3a021c0bc6369db88faeddf828d71 ""
-  "yuanyong_resume_cn.aux" 1467678307 1519 33725e8f8789160597db1ae449acd8f7 ""
-  "yuanyong_resume_cn.out" 1467678307 840 149137a53e5fbf101d66402006a53b04 ""
-  "yuanyong_resume_cn.tex" 1467678305 12471 c71545e7c30df842f3ff4ebcea9e5066 ""
+  "yuanyong_resume_cn.aux" 1469634454 1517 facff963926a2f3a82523f45ac5f0fec ""
+  "yuanyong_resume_cn.out" 1469634454 844 73176959dae969acbd3e1e8ef029c6c9 ""
+  "yuanyong_resume_cn.tex" 1469634445 12526 f9173f27ce2aca2544dd14a53fe63b75 ""
   (generated)
+  "yuanyong_resume_cn.aux"
+  "yuanyong_resume_cn.pdf"
   "yuanyong_resume_cn.out"
   "yuanyong_resume_cn.log"
-  "yuanyong_resume_cn.pdf"
-  "yuanyong_resume_cn.aux"
