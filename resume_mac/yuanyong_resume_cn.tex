@@ -54,7 +54,7 @@
 %\familyname{袁勇}
 \name{\textbf{袁}}{\textbf{勇}}
 \title{\textbf{湖北|男}}                              % optional, remove the line if not wanted
-\address{}{北京市朝阳区}                       % optional, remove the line if not wanted
+\address{}{北京市海淀区}                       % optional, remove the line if not wanted
 \mobile{150-2955-2208}                         % optional, remove the line if not wanted
 %\phone{phone (optional)}                      % optional, remove the line if not wanted
 %\fax{fax (optional)}                          % optional, remove the line if not wanted
@@ -63,7 +63,7 @@
 %\extrainfo{♂34岁}                             % optional, remove the line if not wanted
 \photo[64pt]{qr}                               % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
 \social[github]{willard-yuan}
-%\quote{\textit{求职意向：视觉计算研发工程师}}
+\quote{\textit{专注计算机视觉领域问题}}
 
 % to show numerical labels in the bibliography; only useful if you make citations in your resume
 %\makeatletter
@@ -88,31 +88,33 @@
 %\vspace{-1em}
 
 \section{\textbf{工作经历}}
-
-\cventry{2016.12.12 - 至今}{快手}{}{MMU}{算法工程师}{
+\cventry{2016.12 - 至今}{快手}{}{MMU}{算法工程师}{
 \begin{itemize}
-\item 专注计算机视觉领域的问题，目前负责公司CBIR查重系统新算法的研发.
+\item 设计开发了基于OCR文字识别、Faster RCNN两套Logo识别系统，更新维护基于局部特征匹配Logo识别系统。检测准确率：99.5+\%，检测召回量： 640万视频评估召回70万Logo
+\item 研发基于CNN和传统特征融合的视觉检索系统，解决相似检索和物体检索视觉搜索问题。平均检索精度：Oxford Building数据集mAP取得80\%(待上线)
+\item 设计开发了快手app视频截屏检测器，检测准确率100\%，650万视频评估召回2万快手app截屏视频
+\item 设计开发了视频查重校验器，作为对局部特征查重校验器的补充，增加了查重的召回率，600万上评估在原局部特征查重校验器基础上额外召回3720对重复视频。
 \end{itemize}}
 
-\cventry{2016.07.06 - 2016.12.09}{美团}{}{外卖风控部}{算法开发}{
+\cventry{2016.7 - 2016.12}{美团}{}{外卖风控部}{算法开发}{
 \begin{itemize}
-\item 开发新的商户抓取策略，维护、优化已有的商户抓取逻辑，对新美大外卖业务的数据做日常的分析、监控及报表.
+\item 设计开发了新的商户抓取策略，维护、优化已有的商户抓取逻辑，对新美大外卖业务的数据做日常的分析、监控及报表.
 \end{itemize}}
 
-\cventry{2015.10 - 2016.06}{ETRACK眼控技术}{}{学生创业团队}{算法设计与开发}{
+\cventry{2015.10 - 2016.6}{ETRACK眼控技术}{}{学生创业团队}{算法设计与开发}{
 \begin{itemize}
 \item 负责设计瞳孔检测与瞳孔中心检测算法并用C++实现，采用OpenMP实现多线程实时处理.
 \item 负责设计瞳孔中心到屏幕坐标的映射方法并用C++实现，通过安卓NDK供JAVA调用.
-\item 负责桌面版本的开发，使用QT框架构建图形界面, 人眼检测算法核心部分演示：\link[视频]{http://yongyuan.name/project/}.
+\item 负责桌面版本的开发，使用QT框架构建图形界面, 人眼检测算法核心部分：\link[视频演示]{http://yongyuan.name/project/}.
 \end{itemize}}
 
 \section{\textbf{科研经历}}
 \subsection{中科院西安光学精密机械研究所（2013--2016）}
 \cventry{2013.3 - 2016.6}{基于内容的图像检索(CBIR)}{}{课题研究方向}{}{
 \begin{itemize}
-\item 熟练掌握BoW、SIFT、VLAD、FV等图像特征，精通CBIR技术及其检索性能指标评价.
+\item 熟练掌握BoW、VLAD、FV等特征编码方法，精通CBIR及大规模索引技术.
 \item 掌握并积累机器学习中常用的降维、聚类、分类以及图像物体识别技术.
-\item 深入研究过基于哈希的大规模图像检索技术，熟悉近几年来流行的哈希方法。针对一些流行的和经典的哈希方法进行了性能测试和指标评价，详见\link[HABIR工具包主页]{http://yongyuan.name/habir/}，提出并发表一种基于稀疏表达的哈希编码方法.
+\item 提出并发表一种基于稀疏表达的哈希编码方法，详见\link[HABIR工具包主页]{http://yongyuan.name/habir/}.
 \item 对同款物体的检索有较多的积累经验(衣服、鞋子等大型图像库30万)；有对特定类图像诸如皮革、纺织图像等进行检索的经历；在13万量级的图库上做过广告logo的搜索.
 \item 对人脸数据检索与识别、医学影像检索有相应的经历，并对深度学习(CNN卷积神经网络)具备一定的理解.
 \end{itemize}}
@@ -156,8 +158,8 @@
 
 \section{\textbf{IT技能}}
 \cvline{编程语言}{\small 会C++/C、OpenCV以及QT, 熟练Python, Matlab, SQL, 熟悉HTML, CSS, Spark}
-\cvline{机器学习}{\small 精通CBIR(3年研究经历)，熟练掌握聚类、SVM、决策树、BoF、ANN、哈希等机器学习方法，对深度学习有一定的理解}
-\cvline{常用工具}{\small OS X、Linux、OpenCV, Xcode、Dlib、Caffe、Ipython Notebook、Git、Django}
+\cvline{算法技能}{\small 精通CBIR(4年经历)，熟练掌握深度学习与常见物体检测方法，对传统算法具备较好的理解}
+\cvline{常用工具}{\small OS X、Linux、Caffe、OpenCV、Vim、Xcode、Dlib、Ipython Notebook、Git}
 \cvline{GitHub}{\small {\link[github.com/willard-yuan]{https://github.com/willard-yuan}}}
 %\vspace{-1em}      %缩小段落的间距
 

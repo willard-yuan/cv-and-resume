@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.6.22)  2 JAN 2017 23:27
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.6.22)  4 JUN 2017 01:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3967,11 +3967,388 @@ Package microtype Warning: Unknown slot number of character
 (microtype)                in font encoding `EU1' in protrusion list
 (microtype)                `T1-default'.
 
+LaTeX Font Info:    Font shape `EU1/HiraginoSansGB(0)/m/n' will be
+(Font)              scaled to size 9.84009pt on input line 84.
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textendash '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
 
- []
 
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textemdash '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquoteleft '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquoteright '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquotedblleft '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquotedblright '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\AE '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textbackslash '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\quotesinglbase '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\quotedblbase '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\guilsinglleft '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\guilsinglright '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\guillemotleft '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\guillemotright '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textexclamdown '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquestiondown '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textbraceleft '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textbraceright '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textless '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textgreater '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+LaTeX Font Info:    Font shape `EU1/HiraginoSansGB(0)/m/sl' will be
+(Font)              scaled to size 9.84009pt on input line 84.
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textendash '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textemdash '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquoteleft '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquoteright '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquotedblleft '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquotedblright '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\AE '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textbackslash '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\quotesinglbase '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\quotedblbase '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\guilsinglleft '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\guilsinglright '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\guillemotleft '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\guillemotright '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textexclamdown '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquestiondown '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textbraceleft '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textbraceright '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textless '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textgreater '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+LaTeX Font Warning: Font shape `EU1/HiraginoSansGB(0)/m/it' undefined
+(Font)              using `EU1/HiraginoSansGB(0)/m/n' instead on input line 84.
+
+
+
+LaTeX Font Warning: Font shape `EU1/HiraginoSansGBW3(0)/m/it' undefined
+(Font)              using `EU1/HiraginoSansGBW3(0)/m/n' instead on input line 8
+4.
+
+LaTeX Font Info:    Font shape `EU1/HiraginoSansGBW3(0)/m/n' will be
+(Font)              scaled to size 9.84009pt on input line 84.
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textendash '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textemdash '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquoteleft '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquoteright '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquotedblleft '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquotedblright '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\AE '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textbackslash '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\quotesinglbase '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\quotedblbase '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\guilsinglleft '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\guilsinglright '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\guillemotleft '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\guillemotright '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textexclamdown '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquestiondown '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textbraceleft '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textbraceright '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textless '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textgreater '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 84.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 84.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 84.
 LaTeX Font Info:    Font shape `EU1/HiraginoSansGB(0)/m/n' will be
 (Font)              scaled to size 11.80809pt on input line 85.
 
@@ -4338,12 +4715,6 @@ Package microtype Warning: Unknown slot number of character
 (microtype)                in font encoding `EU1' in protrusion list
 (microtype)                `T1-default'.
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 86.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 86.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 86.
 LaTeX Font Info:    Font shape `EU1/HiraginoSansGB(0)/bx/n' will be
 (Font)              scaled to size 8.97906pt on input line 86.
 
@@ -4955,383 +5326,7 @@ Package microtype Warning: Unknown slot number of character
 (microtype)                `T1-default'.
 
 LaTeX Font Info:    Font shape `EU1/HiraginoSansGB(0)/m/n' will be
-(Font)              scaled to size 9.84009pt on input line 110.
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textendash '
-(microtype)                in font encoding `EU1' in protrusion list 
-(microtype)                `default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textemdash '
-(microtype)                in font encoding `EU1' in protrusion list 
-(microtype)                `default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textquoteleft '
-(microtype)                in font encoding `EU1' in protrusion list 
-(microtype)                `default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textquoteright '
-(microtype)                in font encoding `EU1' in protrusion list 
-(microtype)                `default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textquotedblleft '
-(microtype)                in font encoding `EU1' in protrusion list 
-(microtype)                `default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textquotedblright '
-(microtype)                in font encoding `EU1' in protrusion list 
-(microtype)                `default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\AE '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textbackslash '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\quotesinglbase '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\quotedblbase '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\guilsinglleft '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\guilsinglright '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\guillemotleft '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\guillemotright '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textexclamdown '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textquestiondown '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textbraceleft '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textbraceright '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textless '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textgreater '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-LaTeX Font Info:    Font shape `EU1/HiraginoSansGBW3(0)/m/n' will be
-(Font)              scaled to size 9.84009pt on input line 110.
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textendash '
-(microtype)                in font encoding `EU1' in protrusion list 
-(microtype)                `default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textemdash '
-(microtype)                in font encoding `EU1' in protrusion list 
-(microtype)                `default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textquoteleft '
-(microtype)                in font encoding `EU1' in protrusion list 
-(microtype)                `default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textquoteright '
-(microtype)                in font encoding `EU1' in protrusion list 
-(microtype)                `default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textquotedblleft '
-(microtype)                in font encoding `EU1' in protrusion list 
-(microtype)                `default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textquotedblright '
-(microtype)                in font encoding `EU1' in protrusion list 
-(microtype)                `default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\AE '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textbackslash '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\quotesinglbase '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\quotedblbase '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\guilsinglleft '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\guilsinglright '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\guillemotleft '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\guillemotright '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textexclamdown '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textquestiondown '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textbraceleft '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textbraceright '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textless '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textgreater '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-LaTeX Font Info:    Font shape `EU1/HiraginoSansGB(0)/m/n' will be
-(Font)              scaled to size 7.38007pt on input line 138.
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textendash '
-(microtype)                in font encoding `EU1' in protrusion list 
-(microtype)                `default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textemdash '
-(microtype)                in font encoding `EU1' in protrusion list 
-(microtype)                `default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textquoteleft '
-(microtype)                in font encoding `EU1' in protrusion list 
-(microtype)                `default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textquoteright '
-(microtype)                in font encoding `EU1' in protrusion list 
-(microtype)                `default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textquotedblleft '
-(microtype)                in font encoding `EU1' in protrusion list 
-(microtype)                `default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textquotedblright '
-(microtype)                in font encoding `EU1' in protrusion list 
-(microtype)                `default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\AE '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textbackslash '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\quotesinglbase '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\quotedblbase '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\guilsinglleft '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\guilsinglright '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\guillemotleft '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\guillemotright '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textexclamdown '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textquestiondown '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textbraceleft '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textbraceright '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textless '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textgreater '
-(microtype)                in font encoding `EU1' in protrusion list
-(microtype)                `T1-default'.
-
-
-LaTeX Font Warning: Font shape `EU1/HiraginoSansGB(0)/m/it' undefined
-(Font)              using `EU1/HiraginoSansGB(0)/m/n' instead on input line 138
-.
-
-
-LaTeX Font Warning: Font shape `EU1/HiraginoSansGBW3(0)/m/it' undefined
-(Font)              using `EU1/HiraginoSansGBW3(0)/m/n' instead on input line 1
-38.
-
-LaTeX Font Info:    Font shape `EU1/HiraginoSansGBW3(0)/m/n' will be
-(Font)              scaled to size 7.38007pt on input line 138.
+(Font)              scaled to size 7.38007pt on input line 133.
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `\textendash '
@@ -5453,7 +5448,129 @@ Package microtype Warning: Unknown slot number of character
 (microtype)                `T1-default'.
 
 LaTeX Font Info:    Font shape `EU1/HiraginoSansGB(0)/m/it' will be
-(Font)              scaled to size 7.38007pt on input line 138.
+(Font)              scaled to size 7.38007pt on input line 133.
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textendash '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textemdash '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquoteleft '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquoteright '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquotedblleft '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquotedblright '
+(microtype)                in font encoding `EU1' in protrusion list 
+(microtype)                `default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\AE '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textbackslash '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\quotesinglbase '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\quotedblbase '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\guilsinglleft '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\guilsinglright '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\guillemotleft '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\guillemotright '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textexclamdown '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textquestiondown '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textbraceleft '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textbraceright '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textless '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textgreater '
+(microtype)                in font encoding `EU1' in protrusion list
+(microtype)                `T1-default'.
+
+LaTeX Font Info:    Font shape `EU1/HiraginoSansGBW3(0)/m/it' will be
+(Font)              scaled to size 7.38007pt on input line 133.
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `\textendash '
@@ -5578,7 +5695,7 @@ Package microtype Warning: Unknown slot number of character
 
 ]
 LaTeX Font Info:    Font shape `EU1/HiraginoSansGB(0)/m/n' will be
-(Font)              scaled to size 4.92004pt on input line 180.
+(Font)              scaled to size 4.92004pt on input line 182.
 
 
 Package microtype Warning: Unknown slot number of character
@@ -5703,21 +5820,21 @@ Package microtype Warning: Unknown slot number of character
 
 AED: lastpage setting LastPage
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
  (./yuanyong_resume_cn.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 198.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 198.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 200.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 200.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 35774 strings out of 493706
- 713268 string characters out of 6145769
- 807338 words of memory out of 5000000
- 38650 multiletter control sequences out of 15000+600000
+ 35778 strings out of 493706
+ 713400 string characters out of 6145769
+ 807353 words of memory out of 5000000
+ 38654 multiletter control sequences out of 15000+600000
  29390 words of font info for 70 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  69i,11n,113p,10370b,781s stack positions out of 5000i,500n,10000p,200000b,80000s
