@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1479051345 "resume.tex" "resume.pdf" "resume" 1479051347
+["pdflatex"] 1496512406 "resume.tex" "resume.pdf" "resume" 1496512410
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -78,19 +78,19 @@
   "/usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf" 1428852030 31983 18aeec08f48baa3cf3508d538dd5f459 ""
   "/usr/local/texlive/2015/texmf-var/web2c/xetex/xelatex.fmt" 1434942512 3445932 f37a982929209ba118713778f40e1758 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
-  "awesome-cv.cls" 1478964854 23831 b960755942839748bb5fcf46f42240f3 ""
+  "awesome-cv.cls" 1479618254 23869 14749fa60d9a2daac6e78938847a5c37 ""
   "fontawesome.sty" 1478964854 84047 355f16a7bd7ed1782c4e1f3a0b78b931 ""
-  "resume.aux" 1479051347 628 8e762e3fa6240f6f8fe2e9db6cd33e0e ""
-  "resume.out" 1479051347 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "resume.aux" 1496512409 628 8e762e3fa6240f6f8fe2e9db6cd33e0e ""
+  "resume.out" 1496512409 0 d41d8cd98f00b204e9800998ecf8427e ""
   "resume.tex" 1479047334 3401 a5bf28a5d4127f6d62c6f314e98a3162 ""
   "resume/Skills.tex" 1479045578 919 e925fbcea5b4180d394fc190cdda851b ""
   "resume/education.tex" 1479044232 979 4dfdc504a0e0227367ab6891441e4315 ""
   "resume/honors.tex" 1479044775 1447 4858d00a23747caf03184cef937ae034 ""
   "resume/personalProjects.tex" 1479047244 3318 adf3f59551b4a7eb7c19442e3557b334 ""
-  "resume/professionalExperience.tex" 1479047104 2419 0a1e7d329237c4d1e04a2d6cd97c3fe2 ""
+  "resume/professionalExperience.tex" 1496512404 3197 f8945aa2787f6171e88dc7e6b1c1e817 ""
   "resume/writing.tex" 1479045851 994 252532dfae34a8e0ef538f8441f698dc ""
   (generated)
   "resume.pdf"
-  "resume.log"
   "resume.aux"
+  "resume.log"
   "resume.out"
