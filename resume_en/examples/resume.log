@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.6.22)  4 JUN 2017 01:53
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.6.22)  15 SEP 2017 00:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -810,8 +810,8 @@ lable
 (Font)              Font shape `EU1/SourceSansPro(2)/m/it' tried instead on inp
 ut line 19.
 )
-(./resume/professionalExperience.tex) (./resume/personalProjects.tex)
-(./resume/writing.tex [1
+(./resume/professionalExperience.tex) (./resume/writing.tex)
+(./resume/personalProjects.tex [1
 
 ]) (./resume/Skills.tex
 Overfull \hbox (24.8379pt too wide) in alignment at lines 10--28
@@ -827,12 +827,12 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 28528 strings out of 493706
- 503428 string characters out of 6145769
+ 28530 strings out of 493706
+ 503532 string characters out of 6145769
  625064 words of memory out of 5000000
- 31597 multiletter control sequences out of 15000+600000
- 6488 words of font info for 73 fonts, out of 8000000 for 9000
+ 31598 multiletter control sequences out of 15000+600000
+ 6496 words of font info for 74 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 53i,11n,65p,10393b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,12n,65p,10393b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume.pdf (2 pages).

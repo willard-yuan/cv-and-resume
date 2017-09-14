@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1496512406 "resume.tex" "resume.pdf" "resume" 1496512410
+["pdflatex"] 1505406475 "resume.tex" "resume.pdf" "resume" 1505406477
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -80,17 +80,17 @@
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
   "awesome-cv.cls" 1479618254 23869 14749fa60d9a2daac6e78938847a5c37 ""
   "fontawesome.sty" 1478964854 84047 355f16a7bd7ed1782c4e1f3a0b78b931 ""
-  "resume.aux" 1496512409 628 8e762e3fa6240f6f8fe2e9db6cd33e0e ""
-  "resume.out" 1496512409 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "resume.tex" 1479047334 3401 a5bf28a5d4127f6d62c6f314e98a3162 ""
+  "resume.aux" 1505406476 628 8e762e3fa6240f6f8fe2e9db6cd33e0e ""
+  "resume.out" 1505406476 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "resume.tex" 1505405202 3401 32e10a9e6c136c7b4f7e10e579a4bf32 ""
   "resume/Skills.tex" 1479045578 919 e925fbcea5b4180d394fc190cdda851b ""
   "resume/education.tex" 1479044232 979 4dfdc504a0e0227367ab6891441e4315 ""
   "resume/honors.tex" 1479044775 1447 4858d00a23747caf03184cef937ae034 ""
-  "resume/personalProjects.tex" 1479047244 3318 adf3f59551b4a7eb7c19442e3557b334 ""
-  "resume/professionalExperience.tex" 1496512404 3197 f8945aa2787f6171e88dc7e6b1c1e817 ""
-  "resume/writing.tex" 1479045851 994 252532dfae34a8e0ef538f8441f698dc ""
+  "resume/personalProjects.tex" 1505406460 3874 17ef6033add9fa1efb705958d2d2553e ""
+  "resume/professionalExperience.tex" 1505406006 3322 e68cd11625bd6e8fb56ece3c081e5a02 ""
+  "resume/writing.tex" 1505405581 1176 a58f79dfb5484071a79653b308be12c0 ""
   (generated)
-  "resume.pdf"
   "resume.aux"
   "resume.log"
+  "resume.pdf"
   "resume.out"

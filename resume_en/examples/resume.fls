@@ -164,10 +164,10 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT resume/professionalExperience.tex
 INPUT resume/professionalExperience.tex
-INPUT resume/personalProjects.tex
-INPUT resume/personalProjects.tex
 INPUT resume/writing.tex
 INPUT resume/writing.tex
+INPUT resume/personalProjects.tex
+INPUT resume/personalProjects.tex
 INPUT resume/Skills.tex
 INPUT resume/Skills.tex
 INPUT resume/honors.tex

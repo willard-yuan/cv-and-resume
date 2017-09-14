@@ -1,6 +1,0 @@
-PWD /Users/willard/Public/github/my-cv-and-resume/resume_en/examples/resume
-INPUT /usr/local/texlive/2015/texmf.cnf
-INPUT /usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT professionalExperience.tex
-OUTPUT professionalExperience.log
