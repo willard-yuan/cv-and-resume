@@ -1,4 +1,14 @@
-### Mac版本
+## 文件布局
+
+文件布局说明如下：
+
+- **resume_mac**，中文版简历
+- **resume_en**，英文版简历
+- **cv**，学术版简历
+
+中文版和英文版的简历排版效果：[效果演示](http://yongyuan.name/YongYuan_resume.pdf)
+
+## Mac版本
 
  1.Mac下搭建latex环境。MacTex+Sublime+Skim，具体安装步骤可以参阅[在Mac上通过Sublime、Skim编辑LaTeX](http://painterlin.com/2014/08/10/Using-LaTeX-with-Sublime-and-Skim-for-Mac.html),这篇文章讲得很详细了，另外需要补充的是编译出现：
 
@@ -18,7 +28,7 @@ LaTeXTools: Reconfigure and migrate setting
 
 2.添加中文字体支持。中文字体使用`xeCJK`宏包，具体怎么配置中文字体可以参阅[为 MacTeX 配置中文支持](http://liam0205.me/2014/11/02/latex-mactex-chinese-support/)，这篇文章讲得很详细，一路跟着毫无障碍。
 
-### 优化方案
+## 优化方案
 
 1. [modify size of blank spaces](http://tex.stackexchange.com/questions/82861/moderncv-modify-size-of-blank-spaces).
 2. [How to change title font size in moderncv?](http://tex.stackexchange.com/questions/128052/how-to-change-title-font-size-in-moderncv)
