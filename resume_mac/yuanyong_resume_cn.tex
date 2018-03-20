@@ -88,21 +88,19 @@
 %\vspace{-1em}
 
 \section{\textbf{工作经历}}
-\subsection{快手（MMU, 算法工程师, 2016.12--至今）}
-\cventry{2016.12 - 至今}{视频原创保护}{}{多媒体内容理解部门}{算法工程师}{
+\subsection{快手MMU图像算法工程师（2016.12--至今）}
+\cventry{2016.12 - 至今}{视频图像检索}{视频图像查重与拷贝检测}{5年图像检索经历}{掌握了工业检索系统一些线上主流方法}{
 \begin{itemize}
-\item 设计开发了一种视频相似重排与视频查重校验方法.
-\item 设计开发了基于OCR文字识别、Faster RCNN两套Logo识别系统，更新维护基于局部特征匹配Logo识别系统。检测准确率：99.5+\%，检测召回量： 640万视频评估召回70万Logo
-\item 研发基于CNN和传统特征融合的视觉检索系统，解决相似检索和物体检索视觉搜索问题。平均检索精度：Oxford Building数据集mAP取得80\%(待上线)
-\item 设计开发了快手app视频截屏检测器，检测准确率100\%，650万视频评估召回2万快手app截屏视频
-\item 设计开发了视频查重校验器，作为对局部特征查重校验器的补充，增加了查重的召回率，600万上评估在原局部特征查重校验器基础上额外召回3720对重复视频。
+\item 重排算法。设计并开发了一种视频（多帧）相似重排方法，上线并显著改善了相似查重的视频查重效果.
+\item 校验算法。开发了一种基于深度学习特征和局部特征匹配的视频相似查重多帧校验方法，弥补了线上对视频错帧、水平镜像等容忍编辑形变过小的缺陷；设计并开发了一种更严格的图像拷贝检测校验方法，弥补局部特征校验的召回以及适配游戏查重校验等特殊场景.
+\item 特征索引。设计并开发了一种基于OPQ特征量化编码的视屏多帧索引方法，全量索引平台50亿+视频量.
+\item 特征表达。设计基于CNN和传统特征融合的视觉检索系统，解决实例检索问题，Oxford Building数据集mAP取得80\%.
 \end{itemize}}
 
-\cventry{2016.12 - 至今}{视频Logo检测}{}{多媒体内容理解部门}{算法工程师}{
+\cventry{2016.12 - 至今}{视频物体检测}{}{视频Logo检测游戏识别等}{}{
 \begin{itemize}
-\item 设计开发了一种视频相似重排与视频查重校验方法.
-\item 设计开发了基于OCR文字识别、Faster RCNN两套Logo识别系统，更新维护基于局部特征匹配Logo识别系统。检测准确率：99.5+\%，检测召回量： 640万视频评估召回70万Logo
-\item 设计开发了视频查重校验器，作为对局部特征查重校验器的补充，增加了查重的召回率，600万上评估在原局部特征查重校验器基础上额外召回3720对重复视频。
+\item 设计并开发了两种Logo识别算法，分别为：基于OCR文字识别的Logo识别算法，基于Faster RCNN结合BoVW模型以及局部特征校验的Logo识别算法，升级了并维护基于局部特征匹配Logo识别系统。检测准确率：99.5+\%，Logo检测类别达xxx+多种，Logo每日召回占视屏上传总量xxx\%.
+\item 设计并开发了尺寸极小（目标尺寸<=xxx）且目标极不明显的Logo检测方法；开发了王者荣耀英雄、视频截屏、直播游戏（xxx种）等识别算法，检测准确率100\%.
 \end{itemize}}
 
 \cventry{2016.7 - 2016.12}{美团}{}{外卖风控部}{算法开发}{
@@ -161,14 +159,14 @@
 \cvline{2017.7 - Now}{构建CBIR领域传统特征与深度学习方法做图像检索的对比框架，详见\href{https://github.com/willard-yuan/cnn-cbir-benchmark}{GitHub.}}
 \cvline{2016.8 - 2016.9}{以SeetaFaceEngine为基础，使用LSH索引技术构建了一个人脸检索系统，详见\href{https://github.com/willard-yuan/SeetaFaceLib}{GitHub.}}
 \cvline{2015.4 - 2016.4}{基于MatConvNet以及VGGNet卷积神经网络模型构建的一个用于图像检索的实验工具包，详见\href{https://github.com/willard-yuan/CNN-for-Image-Retrieval}{GitHub.}}
-\cvline{2013.2 - 2016.6}{整理并实现了一些流行的哈希算法及多种指标评价，目前该Matlab工具包已更新至V2.0，详见\href{https://github.com/willard-yuan/hashing-baseline-for-image-retrieval}{GitHub.}}
+\cvline{2013.2 - 2016.6}{实现并整理了一些流行的哈希算法及多种指标评价，目前该Matlab工具包已更新至V2.0，详见\href{https://github.com/willard-yuan/hashing-baseline-for-image-retrieval}{GitHub.}}
 \cvline{2013.12 - 2014.6}{翻译《Programming Computer Vision with Python》时，为使读者更易于理解书中的内容，重新对书上的代码做了整理，并放在github 上，详见\href{http://yongyuan.name/pcvwithpython/}{项目主页.}}
 \cvline{2014.2 - 2014.5}{基于稀疏重构的哈希编码方法的Matlab代码及检索指标评价，详见\href{https://github.com/willard-yuan/sparse-reconstruction-hashing}{GitHub.}}
 %\vspace{-1em}
 
 \section{\textbf{IT技能}}
 \cvline{编程语言}{\small 会C++/C、OpenCV以及QT, 熟练Python, Matlab, SQL, 熟悉HTML, CSS, Spark}
-\cvline{算法技能}{\small 精通CBIR(4年经历)，熟练掌握深度学习与常见物体检测方法，对传统算法具备较好的理解}
+\cvline{算法技能}{\small 精通CBIR（5年经历），熟练掌握深度学习与常见物体检测方法，对传统算法具备较好的理解}
 \cvline{常用工具}{\small OS X、Linux、Caffe、OpenCV、Vim、Xcode、Dlib、Ipython Notebook、Git}
 \cvline{GitHub}{\small {\link[github.com/willard-yuan]{https://github.com/willard-yuan}}}
 %\vspace{-1em}      %缩小段落的间距
