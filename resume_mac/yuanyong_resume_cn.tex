@@ -59,11 +59,11 @@
 %\phone{phone (optional)}                      % optional, remove the line if not wanted
 %\fax{fax (optional)}                          % optional, remove the line if not wanted
 \email{willard.yuan@gmail.com}                 % optional, remove the line if not wanted
-\homepage{yongyuan.name}                       % optional, remove the line if not wanted
+\homepage{个人主页：yongyuan.name}                       % optional, remove the line if not wanted
 %\extrainfo{♂34岁}                             % optional, remove the line if not wanted
 \photo[64pt]{qr}                               % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
-\social[github]{willard-yuan}
-\quote{\textit{专注计算机视觉领域问题(not available for hiring)}}
+\social[github]{github: willard-yuan}
+\quote{\textit{专注计算机视觉领域问题(Not Available for Hiring)}}
 
 % to show numerical labels in the bibliography; only useful if you make citations in your resume
 %\makeatletter
@@ -88,26 +88,36 @@
 %\vspace{-1em}
 
 \section{\textbf{工作经历}}
-\subsection{快手MMU图像算法工程师（2016.12--至今）}
-\cventry{2016.12 - 至今}{视频图像检索}{视频图像检索、查重与拷贝检测}{5年图像检索经历}{掌握了若干工业图像检索系统线上主流方法}{
+\subsection{快手MMU计算机视觉算法工程师}
+\cventry{}{短、长视频和图像检索、查重与拷贝检测，5年视觉检索经历，掌握了若干工业视觉检索系统线上主流算法}{}{}{}{}
+
+\cventry{2017.01 - 至今}{第三代视频原创保护系统}{对百亿级短视频（千亿级视频帧）进行第三代算法升级，同时拓展至长视频原创保护}{}{}{
 \begin{itemize}
-\item 特征索引。设计并开发了一种基于OPQ特征量化编码的视频多帧索引方法，全量索引平台xx亿视频量，与视频多帧倒排结构相比，检索召回提升4倍以上.
-\item 校验算法。设计并开发了一种基于CNN特征和局部特征匹配相结合的视频查重多帧校验方法，提高了视频查重校验对错帧、镜像等编辑的鲁棒性；开发了一种基于GIST全局特征更严格的图像校验方法，弥补局部特征校验的召回以及适配游戏查重校验等高度相似的场景.
+\item 特征升级为simNet和dupNet。带领同事设计并研发了一种统一视觉近似重复和语义相似的特征学习框架，在此基础上分别获得了专门面向视频查重的dupNet特征和既可以面向视频查重又可以面向语义相似的simNet特征，3000万视频库离线实验评估，dupNet特征召回比第二代查重系统特征召回好XXX点，simNet比simNet特征比第二代查重系统特征召回好XXX点，dupNet上线应用于X站长视频原创保护.
+\item 索引升级。带领同事设计并研发了一种结合图ANN和OPQ的索引算法hnswOPQ.
+\end{itemize}}
+
+\cventry{2016.12 - 2017.12}{第二代短视频原创保护系统}{对从0到1的短视频原创保护系统进行算法升级，以适应百亿级短视频原创保护}{}{}{
+\begin{itemize}
+\item 特征索引。设计并研发了一种基于OPQ特征量化编码的视频多帧索引及排序方法，全量索引平台xx亿视频量，与视频多帧倒排结构相比，检索召回提升4倍以上，全量上额外独立覆盖3\%+.
+\item 校验算法。设计并研发了一种基于CNN特征和局部特征匹配相结合的视频查重多帧校验方法，提高了视频查重校验对错帧、镜像等编辑的鲁棒性；开发了一种基于GIST全局特征更严格的图像校验方法，弥补局部特征校验的召回以及适配游戏查重校验等高度相似的场景.
 \item 重排算法。设计并开发了一种视频（多帧）相似重排方法，上线并显著改善了相似查重的视频查重效果.
 \item 特征表达。设计基于CNN和传统特征融合的视觉检索系统，解决实例检索问题，Oxford Building数据集mAP取得80\%.
 \end{itemize}}
 
-\cventry{2016.12 - 至今}{视频物体检测}{}{视频Logo检测游戏识别等}{}{
+\cventry{}{视频物体检测}{}{视频Logo检测游戏识别等}{}{
 \begin{itemize}
 \item 设计并开发了两种Logo识别算法，分别为：基于OCR文字识别的Logo识别算法，基于Faster RCNN结合BoVW模型以及局部特征校验的Logo识别算法，升级了并维护基于局部特征匹配Logo识别系统。检测准确率：99.5+\%，Logo检测类别达xxx+多种，Logo每日召回占视频上传总量xxx\%.
 \item 设计并开发了尺寸极小（目标尺寸<=xxx）且目标极不明显的Logo检测方法；开发了王者荣耀英雄、视频截屏、直播游戏（xxx种）等识别算法，检测准确率100\%.
 \end{itemize}}
 
+\subsection{美团算法工程师}
 \cventry{2016.7 - 2016.12}{美团}{}{外卖风控部}{算法开发}{
 \begin{itemize}
 \item 设计开发了新的商户抓取策略，维护、优化已有的商户抓取逻辑，对新美大外卖业务的数据做日常的分析、监控及报表.
 \end{itemize}}
 
+\subsection{ETRACK学生初创团队算法工程师}
 \cventry{2015.10 - 2016.6}{ETRACK眼控技术}{}{学生创业团队}{算法设计与开发}{
 \begin{itemize}
 \item 负责设计瞳孔检测与瞳孔中心检测算法并用C++实现，采用OpenMP实现多线程实时处理.
@@ -147,7 +157,7 @@
 
 \section{\textbf{出版物}}
 
-\cventry{2016.1}{\textnormal{Xuelong Li}, \textbf{Yong Yuan} \textnormal{and Xiaoqiang Lu, Latent Semantic Minimal Hashing for Image Retrieval. IEEE TIP, 2016 (MINOR REVISION)} }{}{}{}{}
+\cventry{2016.1}{\textnormal{Xuelong Li}, \textbf{Yong Yuan} \textnormal{and Xiaoqiang Lu, Latent Semantic Minimal Hashing for Image Retrieval. IEEE TIP, 2016 (MINOR REVISION)} }{\href{https://github.com/willard-yuan/hashing-baseline-for-image-retrieval}{project}}{}{}{}
 \cventry{2014.4}{\textbf{Yong Yuan}\textnormal{, Xiaoqiang Lu, and Xuelong Li. Learning Hash Functions Using Sparse Reconstruction. ACM ICIMCS, pp. 14-18, 2014 (Best Paper Runner-up Award)} }{}{}{}{}
 \cventry{2014.6}{\textnormal{朱文涛，}\textbf{袁勇}\textnormal{. \href{http://www.ituring.com.cn/book/1349}{Python计算机视觉编程} (译作)，图灵出版社，2014} }{}{}{}{}
 \cventry{2015.10}{\textnormal{李学龙，卢孝强，}\textbf{袁勇}\textnormal{. \href{https://www.google.com/patents/CN106033426A?cl=en&hl=zh-CN}{一种基于潜在语义最小哈希的图像检索方法} (CN106033426A，专利)} }{}{}{}{}
