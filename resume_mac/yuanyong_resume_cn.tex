@@ -88,12 +88,24 @@
 %\vspace{-1em}
 
 \section{\textbf{工作经历}}
-\subsection{快手MMU视觉算法工程师}
+
+\subsection{快手，搜索技术部-算法工程师，职级K4b，2020-now，3年绩效全部保持在A及以上}
+\cventry{2020.12 - now}{搜索精排大模型消费分预估，个性化大模型优化，熟悉搜索推荐领域前沿行为序列建模方案}{}{}{}{
+\begin{itemize}
+\item QIN (Query-dominant User Interest Network) 个性化大模型样本实时化。提升训练与推理特征数据一致性，避免样本特征发生穿越，全局快速捕捉用户兴趣变化，提高流量转化效率。为避免从离线拼接(批式)一步跨越到实时(流式)，导致样本特征、label存在较大diff，增加了一个中间过渡环节，特征在线dump，label仍保持于离线label一致。在线取得搜索总播放时长+1.151\%，综合搜索首页有点比(自然结果)+0.227\%，搜索换Query率-0.431\%。随机GSB=0：6：89：7：0，样本延迟：2d延降低到70 mins.
+\item 时长目标牵引，在QIN中引入时长预估。针对快手搜索特点，进行业务定制，分别实验了Youtube的时长预估方案和采用物理时长分桶、播放时长再分桶进行时长削偏方式，都取得了很好的收益。基于Youtube的weighted logloss方案，在线取得搜索总播放时长+1.318\%收益。采用时长削偏方式，在线取得搜索总播放时长+1.910\%收益.
+\item 创新性提出QIN 2.0双阶段检索个性化大模型。QIN 2.0包含两个原创性工作，分别为RSU(Relevance Search Unit)和FAU (Fused Attention Unit)模块。RSU获取target photo的共享子序列和独有子序列，先拿query的多模embedding检索最相似N条结果，再拿target视频embedding检索最近50条。QIN 2.0一阶段只计算一次，扩展序列成本低，筛选出与当前query(显式context)相关性较好，且对target photo预估有帮助的子序列。FAU针对ID类特征与内容类特征表征特点，设计出一种新颖的融合单元，ID类特征与内容类特征分别计算attention，用户交互度反映用户对photo的兴趣，通过用户交互度设计Engagement Gate具备良好解释性。线上累加收益：搜索设备次日留存率+0.087\%，搜索总播放时长2.056\% ，综合搜索首页有点比(自然结果)+1.336\%，搜索换Query率-1.115\%。同时该工作已被CIKM接收.
+\item 原创性提出QIN 1.0个性化大模型。在query与photo多塔匹配模型的基础上，单独设计了个性化模块，加入行为兴趣建模。为刻画用户在当前query下的兴趣，同时兼顾搜索相关性，构建了query和photo语义匹配多模embedding，从用户历史行为序列中通过query embedding检索出行为子序列，作为QIN模型的序列特征。线上取得搜索设备次日留存率+0.19\%，搜索总播放时长+1.584\%，综合搜索首页有点比(自然结果)+1.27\%，搜索主动换Query率-1.543\%收益，随机GSB=21（2）-148（12）-19（1），长尾GSB=24（5）-136（23）-17（2）.
+\item DNN模型升级为query与photo多塔匹配模型。按信号维度拆成相关、视觉感知、质量权威、时鲜维度构建多塔模型，特征采用beta分布进行平滑处理，模型加宽加深，各个塔内部做柔性特征权重选择，预估目标从单目标升级为MMOE多目标预估，夯实了query与photo多塔匹配模型基础。
+\item 从0到1构建精排消费分预估DNN模型。搜索行为日志包含大量query和photo相关性信息，用户query下的交互度刻画了用户对搜索结果满意程度，利用用户海量行为以及DNN端到端建模，对用户的消费偏好进行预估。在线替换了基于相关性与消费分档的树模型预估方案。
+\end{itemize}}
+
+
+\subsection{快手，多媒体内容理解部-视觉算法工程师，职级K4a，2016-2020，4年绩效全部保持在A及以上}
 \cventry{}{短、长视频和图像检索、查重与拷贝检测，6年视觉检索经历，掌握了若干工业视觉检索系统线上主流算法}{}{}{}{}
 
 \cventry{2018.12 - 2019.8}{智能配乐推荐，视频搜索}{基于视频内容推荐最相关的候选音乐. 文本搜视频}{}{}{
 \begin{itemize}
-\item 点击模型。负责视频搜索中的点击模型与点击调权，核心指标提升XX\%.
 \item 以视频检索为核心技术，为智能配乐增加相似（热歌）召回源以及原生召回源，增加精排序模型。相似（热歌）召回源AB实验召回效果优于或可比其他召回源；精排序模型AB实验相比base排序提升2pp左右，相似（热歌）召回源以及原生召回源线上已推全.
 \item 索引算法升级。以DNN及深度度量学习为基础，开发了一套基于Spreading Vector的特征索引算法，相比线上算法，离线评估额外增加扎汇率9.8pp（填平与Faiss差5pp的距离，并在此基础上增加了4.8pp），线上评估新增查重独立召回2.7\%左右，最大时延由190ms降低到110ms左右。
 \item 长视频查重优化。从关键帧检测算法等方面，对长视频查重进行重点优化，优化后Recall@10相比优化前，在业务反馈的badcase上，召回率提升了16\%左右.
@@ -120,18 +132,18 @@
 
 \cventry{}{视频物体检测}{}{视频Logo检测游戏识别等}{}{
 \begin{itemize}
-\item 设计并开发了两种Logo识别算法，分别为：基于OCR文字识别的Logo识别算法，基于Faster RCNN结合BoVW模型以及局部特征校验的Logo识别算法，升级了并维护基于局部特征匹配Logo识别系统。检测准确率：99.5+\%，Logo检测类别达xxx+多种，Logo每日召回占视频上传总量xxx\%.
+\item 设计并开发了两种Logo识别算法，分别为：基于OCR文字识别的Logo识别算法，基于Faster RCNN结合BoVW模型以及局部特征校验的Logo识别算法，升级了并维护基于局部特征匹配Logo识别系统。检测准确率：99.5+\%，Logo检测类别达1000+多种，Logo每日召回占视频上传总量xxx\%.
 \item 设计并开发了尺寸极小（目标尺寸<=xxx）且目标极不明显的Logo检测方法；开发了王者荣耀英雄、视频截屏、直播游戏（xxx种）等识别算法，检测准确率100\%.
 \item 为嗨声、珍珠港、kwaigo等提供自动去水印需求.
 \end{itemize}}
 
-\subsection{美团算法工程师}
+\subsection{美团，算法工程师，2016}
 \cventry{2016.7 - 2016.12}{美团}{}{外卖风控部}{算法开发}{
 \begin{itemize}
 \item 设计开发了新的商户抓取策略，维护、优化已有的商户抓取逻辑，对新美大外卖业务的数据做日常的分析、监控及报表.
 \end{itemize}}
 
-\subsection{ETRACK学生初创团队算法工程师}
+\subsection{中科院西安光学精密机械研究所，学生创业团队，算法工程师}
 \cventry{2015.10 - 2016.6}{ETRACK眼控技术}{}{学生创业团队}{算法设计与开发}{
 \begin{itemize}
 \item 负责设计瞳孔检测与瞳孔中心检测算法并用C++实现，采用OpenMP实现多线程实时处理.
@@ -139,8 +151,27 @@
 \item 负责桌面版本的开发，使用QT框架构建图形界面, 人眼检测算法核心部分：\link[视频演示]{http://yongyuan.name/project/}.
 \end{itemize}}
 
+\section{\textbf{出版物}}
+\subsection{\textbf{论文与书刊}}
+\cventry{2023.8}{Query-dominant User Interest Network for Large-Scale Search Ranking, \textnormal{Tong Guo, Xuanping Li, Haitao Yang, Xiao Liang, \textbf{Yong Yuan}, Jingyou Hou, Bingqing Ke, Chao Zhang, Junlin He, Shunyu Zhang, Enyun Yu and Wenwu Ou. CIKM’23} }{}{}{}{}
+\cventry{2016.1}{\textnormal{Latent Semantic Minimal Hashing for Image Retrieval. IEEE TIP, 2016 (MINOR REVISION)} }{\href{https://github.com/willard-yuan/hashing-baseline-for-image-retrieval}{project}}{\textnormal{Xuelong Li}, \textbf{Yong Yuan}, \textnormal{and Xiaoqiang Lu}}{}{}
+\cventry{2014.4}{\textnormal{Learning Hash Functions Using Sparse Reconstruction. ACM ICIMCS, pp. 14-18, 2014} }{\textbf{Yong Yuan}\textnormal{, Xiaoqiang Lu, and Xuelong Li}}{(\textbf{Best Paper Runner-up Award})}{}{}
+\cventry{2021.2}{\textnormal{\href{http://www.ituring.com.cn/book/1349}{Python计算机视觉编程} (译作)，图灵出版社，2014} }{\textnormal{朱文涛，}\textbf{袁勇}}{}{}{}
+\subsection{\textbf{授权专利}}
+\cventry{2023.4}{\textnormal{\href{https://patents.google.com/patent/US20210118119}{Method and Device for Verifying Image and Video} (US20210118119)} }{\textbf{Yong Yuan}\textnormal{，Yan Li, An Liu, Jie Yang, Bingqing KE, Yanjun Ma, Cunyi Zhang, and Dong Ding}}{}{}{}
+\cventry{2022.9}{\textnormal{\href{https://patents.google.com/patent/CN113505256A/zh}{特征提取网络训练方法、图像处理方法及装置} (CN113505256A)} }{\textnormal{张磊，李攀登，李岩}，\textbf{袁勇}，\textnormal{谢洪涛，张勇东}}{}{}{}
+\cventry{2022.6}{\textnormal{\href{https://patents.google.com/patent/US20220210511}{Method and Electronic Device for Displaying Video} (US20220210511)} }{\textnormal{Bingwu Yan, Shaopeng Han, Lijuan Bai}, \textbf{Yong Yuan}}{}{}{}
+\cventry{2022.5}{\textnormal{\href{https://patents.google.com/patent/CN110275970A/zh}{图像检索的方法、装置、服务器及存储介质} (CN110275970A)} }{\textnormal{张存义，}\textbf{袁勇}}{}{}{}
+\cventry{2021.9}{\textnormal{\href{https://patents.google.com/patent/CN110134804A/zh}{图像检索方法、装置及存储介质} (CN110134804A)} }{\textnormal{杨杰，}\textbf{袁勇}\textnormal{，李岩，刘岸}}{}{}{}
+\cventry{2021.2}{\textnormal{\href{https://patents.google.com/patent/CN112367559A/zh}{视频展示方法、装置、电子设备、服务器及存储介质} (CN112367559A)} }{\textnormal{周静，王慧，刘付家}，\textbf{袁勇}\textnormal{，李新}}{}{}{}
+\cventry{2022.8}{\textnormal{\href{https://patents.google.com/patent/CN112399236A/zh}{一种视频查重方法、装置及电子设备} (CN112399236A)} }{\textbf{袁勇}\textnormal{，刘岸，杨杰，李岩}}{}{}{}
+\cventry{2016.10}{\textnormal{\href{https://www.google.com/patents/CN106033426A?cl=en&hl=zh-CN}{一种基于潜在语义最小哈希的图像检索方法} (CN106033426A)} }{\textnormal{李学龙，卢孝强，}\textbf{袁勇}}{}{}{}
+%\vspace{-1em}
+
+%\vspace{-1em}
+
 \section{\textbf{科研经历}}
-\subsection{中科院西安光学精密机械研究所（2013--2016）}
+\subsection{中科院西安光学精密机械研究所，2013-2016}
 \cventry{2013.3 - 2016.6}{基于内容的图像检索(CBIR)}{}{课题研究方向}{}{
 \begin{itemize}
 \item 熟练掌握BoW、VLAD、FV等特征编码方法，精通CBIR及大规模索引技术.
@@ -169,18 +200,8 @@
 \item 采用opencv、dlib等计算机视觉开源库，非电力线类障碍物检测采用HOG+SVM物体检测方法.
 \end{itemize}}
 
-\section{\textbf{出版物}}
-
-\cventry{2016.1}{\textnormal{Xuelong Li}, \textbf{Yong Yuan} \textnormal{and Xiaoqiang Lu, Latent Semantic Minimal Hashing for Image Retrieval. IEEE TIP, 2016 (MINOR REVISION)} }{\href{https://github.com/willard-yuan/hashing-baseline-for-image-retrieval}{project}}{}{}{}
-\cventry{2014.4}{\textbf{Yong Yuan}\textnormal{, Xiaoqiang Lu, and Xuelong Li. Learning Hash Functions Using Sparse Reconstruction. ACM ICIMCS, pp. 14-18, 2014 (Best Paper Runner-up Award)} }{}{}{}{}
-\cventry{2014.6}{\textnormal{朱文涛，}\textbf{袁勇}\textnormal{. \href{http://www.ituring.com.cn/book/1349}{Python计算机视觉编程} (译作)，图灵出版社，2014} }{}{}{}{}
-\cventry{2015.10}{\textnormal{李学龙，卢孝强，}\textbf{袁勇}\textnormal{. \href{https://www.google.com/patents/CN106033426A?cl=en&hl=zh-CN}{一种基于潜在语义最小哈希的图像检索方法} (CN106033426A，专利)} }{}{}{}{}
-%\vspace{-1em}
-
-%\vspace{-1em}
-
 \section{\textbf{开源项目}}
-\cvline{2017.7 - Now}{构建CBIR领域传统特征与深度学习方法做图像检索的对比框架，详见\href{https://github.com/willard-yuan/cnn-cbir-benchmark}{GitHub.}}
+\cvline{2017.7 - 2020}{构建CBIR领域传统特征与深度学习方法做图像检索的对比框架，详见\href{https://github.com/willard-yuan/cnn-cbir-benchmark}{GitHub.}}
 \cvline{2016.8 - 2016.9}{以SeetaFaceEngine为基础，使用LSH索引技术构建了一个人脸检索系统，详见\href{https://github.com/willard-yuan/SeetaFaceLib}{GitHub.}}
 \cvline{2015.4 - 2016.4}{基于MatConvNet以及VGGNet卷积神经网络模型构建的一个用于图像检索的实验工具包，详见\href{https://github.com/willard-yuan/CNN-for-Image-Retrieval}{GitHub.}}
 \cvline{2013.2 - 2016.6}{实现并整理了一些流行的哈希算法及多种指标评价，目前该Matlab工具包已更新至V2.0，详见\href{https://github.com/willard-yuan/hashing-baseline-for-image-retrieval}{GitHub.}}
@@ -188,30 +209,27 @@
 \cvline{2014.2 - 2014.5}{基于稀疏重构的哈希编码方法的Matlab代码及检索指标评价，详见\href{https://github.com/willard-yuan/sparse-reconstruction-hashing}{GitHub.}}
 %\vspace{-1em}
 
-\section{\textbf{IT技能}}
-\cvline{编程语言}{\small 会C++/C、OpenCV以及QT, 熟练Python, Matlab, SQL, 熟悉HTML, CSS, Spark}
-\cvline{算法技能}{\small 精通CBIR（5年经历），熟练掌握深度学习与常见物体检测方法，对传统算法具备较好的理解}
-\cvline{常用工具}{\small OS X、Linux、Caffe、OpenCV、Vim、Xcode、Dlib、Ipython Notebook、Git}
-\cvline{GitHub}{\small {\link[github.com/willard-yuan]{https://github.com/willard-yuan}}}
-%\vspace{-1em}      %缩小段落的间距
-
 \section{\textbf{奖项}}
 %\cventry{2014.07}{\textnormal {ICIMCS14最佳论文提名奖}}{}{}{}{}
 %\cventry{2011--2012}{\textnormal {国家奖学金}}{}{}{}{}
 %\cventry{2010--2011}{\textnormal {校内一等奖学金}}{}{}{}{}
 %\cventry{2009--2010}{\textnormal {国家励志奖学金}}{}{}{}{}
+\cvlistdoubleitem{快手优秀个人奖(2022)}{}
 \cvlistdoubleitem{中科院三好学生(2016.4)}{Best Paper Runner-up Award(2014.7)}
 \cvlistdoubleitem{优秀学生巡回报告团成员(2012.12)}{国家奖学金(2012.11)}
 \cvlistdoubleitem{校内一等奖学金(2011.11)}{国家励志奖学金(2010.11)}
 %\vspace{-1em}      %缩小段落的间距
 
-\section{\textbf{语言}}
+\section{\textbf{个人技能栈}}
+\cvline{编程语言}{\small 会C++/C、OpenCV以及QT, 熟练Python, Matlab, SQL, 熟悉HTML, CSS, Spark，Lua}
+\cvline{算法技能}{\small 精通搜索推荐行为序列建模，3年搜索经验，5年图像视频检索经验，熟练掌握深度学习与传统机器学习算法，对LLM大模型有较好的理解}
 \cvline{英语}{\small CET-6和\small CET-4，具备专业英文文献阅读、写作及翻译能力，平时会保持对CVPR等论文的阅读.}
-%\cvlanguage{英语}{具备阅读专业英文文献能力及写作能力}{CET-6}
+\cvline{常用工具}{\small OS X、Linux、TensorFlow、Pytorch、OpenCV、VSCode、Ipython Notebook、Git}
+\cvline{GitHub}{\small {\link[github.com/willard-yuan]{https://github.com/willard-yuan}}}
 %\vspace{-1em}      %缩小段落的间距
 
 \section{\textbf{其他}}
-\cvline{\hello}{喜欢编码，热爱开源，有写\href{http://yongyuan.name/blog/}{博客}进行总结的习惯；具备较好的沟通、协调和组织能力.}
+\cvline{\hello}{喜欢编码，热爱开源，有写\href{http://yongyuan.name/blog/}{博客}进行总结的习惯；具备一定的管理能力.}
 %\cvline{\hello}{热爱计算机视觉与互联网；喜欢编码，轻度代码洁癖，有写\href{http://yongyuan.name/blog/}{博客}进行总结的习惯；具有较好的人际沟通、协调和组织能力。}
 %\cvlistitem{}
 
