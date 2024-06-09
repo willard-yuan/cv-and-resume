@@ -89,15 +89,16 @@
 
 \section{\textbf{工作经历}}
 
-\subsection{快手，搜索技术部-算法工程师，职级K4b，2020-now，3年绩效全部保持在A及以上}
-\cventry{2020.12 - now}{搜索精排大模型消费分预估，个性化大模型优化，熟悉搜索推荐领域前沿行为序列建模方案}{}{}{}{
+\subsection{快手，搜索技术部-算法工程师，职级K4b，2020-2023，3年绩效全部保持在A及以上}
+\cventry{2020.12 - 2023.11}{搜索精排QIN {\textnormal{\href{https://arxiv.org/pdf/2310.06444}{(Query-dominant User Interest Network)}}}个性化大模型消费预估，熟悉搜索推荐领域前沿行为序列建模方案}{}{}{}{
 \begin{itemize}
-\item QIN (Query-dominant User Interest Network) 个性化大模型样本实时化。提升训练与推理特征数据一致性，避免样本特征发生穿越，全局快速捕捉用户兴趣变化，提高流量转化效率。为避免从离线拼接(批式)一步跨越到实时(流式)，导致样本特征、label存在较大diff，增加了一个中间过渡环节，特征在线dump，label仍保持于离线label一致。在线取得搜索总播放时长+1.151\%，综合搜索首页有点比(自然结果)+0.227\%，搜索换Query率-0.431\%。随机GSB=0：6：89：7：0，样本延迟：2d延降低到70 mins.
+\item \textbf{QIN 3.0 即时兴趣建模范式}。QIN个性化持续性优化的延续，QIN 3.0弥补了2.0中侧重长期兴趣、短期兴趣而忽略了用户的即时兴趣。用户的兴趣通常存在中长期、即时兴趣，在QIN 3.0中，通过客户端下发的用户超实时行为序列( 最近20条)，通过Target Attention学习用户的即时兴趣，构成对用户兴趣的长期、短期、即时表征。。实验收益：设备均使用时长+0.061\%，搜索播放时长+1.838\% ，搜索换Query率-0.521\%，内流总播放时长+7.798\%。成为全年推全实验中收益最显著的实验之一。
+\item QIN 个性化大模型\textbf{样本实时化及流式训练}。提升训练与推理特征数据一致性，避免样本特征发生穿越，全局快速捕捉用户兴趣变化，提高流量转化效率。为避免从离线拼接(批式)一步跨越到实时(流式)，导致样本特征、label存在较大diff，增加了一个中间过渡环节，特征在线dump，label仍保持于离线label一致。在线取得搜索总播放时长+1.151\%，综合搜索首页有点比(自然结果)+0.227\%，搜索换Query率-0.431\%。随机GSB=0：6：89：7：0，样本延迟：2d延降低到70 mins.
 \item 时长目标牵引，在QIN中引入时长预估。针对快手搜索特点，进行业务定制，分别实验了Youtube的时长预估方案和采用物理时长分桶、播放时长再分桶进行时长削偏方式，都取得了很好的收益。基于Youtube的weighted logloss方案，在线取得搜索总播放时长+1.318\%收益。采用时长削偏方式，在线取得搜索总播放时长+1.910\%收益.
-\item 创新性提出QIN 2.0双阶段检索个性化大模型。QIN 2.0包含两个原创性工作，分别为RSU(Relevance Search Unit)和FAU (Fused Attention Unit)模块。RSU获取target photo的共享子序列和独有子序列，先拿query的多模embedding检索最相似N条结果，再拿target视频embedding检索最近50条。QIN 2.0一阶段只计算一次，扩展序列成本低，筛选出与当前query(显式context)相关性较好，且对target photo预估有帮助的子序列。FAU针对ID类特征与内容类特征表征特点，设计出一种新颖的融合单元，ID类特征与内容类特征分别计算attention，用户交互度反映用户对photo的兴趣，通过用户交互度设计Engagement Gate具备良好解释性。线上累加收益：搜索设备次日留存率+0.087\%，搜索总播放时长2.056\% ，综合搜索首页有点比(自然结果)+1.336\%，搜索换Query率-1.115\%。同时该工作已被CIKM接收.
-\item 原创性提出QIN 1.0个性化大模型。在query与photo多塔匹配模型的基础上，单独设计了个性化模块，加入行为兴趣建模。为刻画用户在当前query下的兴趣，同时兼顾搜索相关性，构建了query和photo语义匹配多模embedding，从用户历史行为序列中通过query embedding检索出行为子序列，作为QIN模型的序列特征。线上取得搜索设备次日留存率+0.19\%，搜索总播放时长+1.584\%，综合搜索首页有点比(自然结果)+1.27\%，搜索主动换Query率-1.543\%收益，随机GSB=21（2）-148（12）-19（1），长尾GSB=24（5）-136（23）-17（2）.
+\item \textbf{创新性提出QIN 2.0双阶段检索}个性化大模型。QIN 2.0包含两个原创性工作，分别为RSU(Relevance Search Unit)和FAU (Fused Attention Unit)模块。RSU获取target photo的共享子序列和独有子序列，先拿query的多模embedding检索最相似N条结果，再拿target视频embedding检索最近50条。QIN 2.0一阶段只计算一次，扩展序列成本低，筛选出与当前query(显式context)相关性较好，且对target photo预估有帮助的子序列。FAU针对ID类特征与内容类特征表征特点，设计出一种新颖的融合单元，ID类特征与内容类特征分别计算attention，用户交互度反映用户对photo的兴趣，通过用户交互度设计Engagement Gate具备良好解释性。线上累加收益：搜索设备次日留存率+0.087\%，搜索总播放时长2.056\% ，综合搜索首页有点比(自然结果)+1.336\%，搜索换Query率-1.115\%。同时该工作已被\textnormal{CIKM 2023}接收.
+\item \textbf{原创性提出QIN 1.0}个性化大模型。在query与photo多塔匹配模型的基础上，单独设计了个性化模块，加入行为兴趣建模。为刻画用户在当前query下的兴趣，同时兼顾搜索相关性，构建了query和photo语义匹配多模embedding，从用户历史行为序列中通过query embedding检索出行为子序列，作为QIN模型的序列特征。线上取得搜索设备次日留存率+0.19\%，搜索总播放时长+1.584\%，综合搜索首页有点比(自然结果)+1.27\%，搜索主动换Query率-1.543\%收益，随机GSB=21（2）-148（12）-19（1），长尾GSB=24（5）-136（23）-17（2）.
 \item DNN模型升级为query与photo多塔匹配模型。按信号维度拆成相关、视觉感知、质量权威、时鲜维度构建多塔模型，特征采用beta分布进行平滑处理，模型加宽加深，各个塔内部做柔性特征权重选择，预估目标从单目标升级为MMOE多目标预估，夯实了query与photo多塔匹配模型基础。
-\item 从0到1构建精排消费分预估DNN模型。搜索行为日志包含大量query和photo相关性信息，用户query下的交互度刻画了用户对搜索结果满意程度，利用用户海量行为以及DNN端到端建模，对用户的消费偏好进行预估。在线替换了基于相关性与消费分档的树模型预估方案。
+\item 从0到1构建搜索精排消费分预估DNN模型。搜索行为日志包含大量query和photo相关性信息，用户query下的交互度刻画了用户对搜索结果满意程度，利用用户海量行为以及DNN端到端建模，对用户的消费偏好进行预估。在线替换了基于相关性与消费分档的树模型预估方案。
 \end{itemize}}
 
 
@@ -158,6 +159,8 @@
 \cventry{2014.4}{\textnormal{Learning Hash Functions Using Sparse Reconstruction. ACM ICIMCS, pp. 14-18, 2014} }{\textbf{Yong Yuan}\textnormal{, Xiaoqiang Lu, and Xuelong Li}}{(\textbf{Best Paper Runner-up Award})}{}{}
 \cventry{2021.2}{\textnormal{\href{http://www.ituring.com.cn/book/1349}{Python计算机视觉编程} (译作)，图灵出版社，2014} }{\textnormal{朱文涛，}\textbf{袁勇}}{}{}{}
 \subsection{\textbf{授权专利}}
+\cventry{2023.9}{\textnormal{\href{https://patents.google.com/patent/CN112015922A/zh}{多媒体文件的检索方法、装置、设备及存储介质} (CN112015922A)} }{\textnormal{张存义，}\textbf{袁勇}\textnormal{，刘岸，丁冬，张金帅}}{}{}{}
+\cventry{2023.6}{\textnormal{\href{https://patents.google.com/patent/CN112752158A/zh}{一种视频展示的方法、装置、电子设备及存储介质} (CN112752158A)} }{\textnormal{颜秉武，韩少鹏，白丽娟}，\textbf{袁勇}}{}{}{}
 \cventry{2023.4}{\textnormal{\href{https://patents.google.com/patent/US20210118119}{Method and Device for Verifying Image and Video} (US20210118119)} }{\textbf{Yong Yuan}\textnormal{，Yan Li, An Liu, Jie Yang, Bingqing KE, Yanjun Ma, Cunyi Zhang, and Dong Ding}}{}{}{}
 \cventry{2022.9}{\textnormal{\href{https://patents.google.com/patent/CN113505256A/zh}{特征提取网络训练方法、图像处理方法及装置} (CN113505256A)} }{\textnormal{张磊，李攀登，李岩}，\textbf{袁勇}，\textnormal{谢洪涛，张勇东}}{}{}{}
 \cventry{2022.6}{\textnormal{\href{https://patents.google.com/patent/US20220210511}{Method and Electronic Device for Displaying Video} (US20220210511)} }{\textnormal{Bingwu Yan, Shaopeng Han, Lijuan Bai}, \textbf{Yong Yuan}}{}{}{}
